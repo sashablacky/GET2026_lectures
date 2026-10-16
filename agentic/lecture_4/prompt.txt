@@ -1,0 +1,42 @@
+Build a simple Todo web application.
+
+Requirements:
+
+1. Login page
+   - Email and password fields
+   - Simple validation
+   - Use a demo user:
+     Email: student@example.com
+     Password: password123
+   - After successful login, navigate to the Todo page.
+
+2. Todo page
+   - Add a new todo
+   - Display todo list
+   - Mark a todo as completed
+   - Delete a todo
+   - Filter: All / Active / Completed
+   - Show the number of remaining todos
+
+3. UI
+   - Clean and simple responsive design
+   - Login page and Todo page should be separate
+   - Add a Logout button
+
+4. Data
+   - Keep the implementation simple.
+   - Store todos in browser localStorage.
+   - No backend or database is required.
+
+5. Code quality
+   - Use React.
+   - Keep components simple and easy to understand.
+   - Use clear naming.
+   - Do not add unnecessary libraries.
+
+Before writing code:
+1. Briefly explain the implementation plan.
+2. Show the project structure.
+3. Then implement the application.
+4. Run the application and verify that login and Todo functionality work.
+5. If you find any errors, fix them.
