@@ -1,16 +1,87 @@
-/* Palette & feel borrowed from tryliner.fun: sky gradient, navy ink, lime accent, glass panels */
-:root {
+/* Palette & feel borrowed from tryliner.fun: sky gradient, navy ink, glass panels */
+
+/* ---------- Theme tokens ----------
+   Registering the colors lets the browser animate them, so switching themes
+   morphs every surface smoothly instead of snapping. */
+@property --bg { syntax: '<color>'; inherits: true; initial-value: #f3f4f6; }
+@property --sky { syntax: '<color>'; inherits: true; initial-value: #97e6ff; }
+@property --accent { syntax: '<color>'; inherits: true; initial-value: #3fb6f0; }
+@property --ink { syntax: '<color>'; inherits: true; initial-value: #010521; }
+@property --ink-soft { syntax: '<color>'; inherits: true; initial-value: #404560; }
+@property --muted { syntax: '<color>'; inherits: true; initial-value: #868a9c; }
+@property --hairline { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --glass { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --glass-strong { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --glass-edge { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --surface { syntax: '<color>'; inherits: true; initial-value: #fff; }
+@property --panel { syntax: '<color>'; inherits: true; initial-value: #fff; }
+@property --track { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --hover { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --shadow { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --cloud { syntax: '<color>'; inherits: true; initial-value: transparent; }
+@property --primary-bg { syntax: '<color>'; inherits: true; initial-value: #010521; }
+@property --primary-fg { syntax: '<color>'; inherits: true; initial-value: #fff; }
+@property --primary-hover { syntax: '<color>'; inherits: true; initial-value: #111639; }
+
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f3f4f6;
+  --sky: #97e6ff;
+  --accent: #3fb6f0;
   --ink: #010521;
   --ink-soft: #404560;
   --muted: #868a9c;
-  --bg: #f3f4f6;
-  --sky: #97e6ff;
-  --lime: #def105;
-  --danger: #ff3f1d;
   --hairline: rgba(1, 5, 33, 0.1);
   --glass: rgba(255, 255, 255, 0.55);
   --glass-strong: rgba(255, 255, 255, 0.8);
+  --glass-edge: rgba(255, 255, 255, 0.6);
+  --surface: #ffffff;
+  --panel: rgba(255, 255, 255, 0.94);
+  --track: rgba(1, 5, 33, 0.05);
+  --hover: rgba(255, 255, 255, 0.6);
+  --shadow: rgba(1, 5, 33, 0.18);
+  --cloud: rgba(255, 255, 255, 0.85);
+  --primary-bg: #010521;
+  --primary-fg: #ffffff;
+  --primary-hover: #111639;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #070a1c;
+  --sky: #173a7a;
+  --accent: #7dd3fc;
+  --ink: #eef0f7;
+  --ink-soft: #b7bbd0;
+  --muted: #7c829c;
+  --hairline: rgba(255, 255, 255, 0.1);
+  --glass: rgba(20, 26, 56, 0.5);
+  --glass-strong: rgba(255, 255, 255, 0.07);
+  --glass-edge: rgba(255, 255, 255, 0.06);
+  --surface: #2e3770;
+  --panel: rgba(16, 20, 44, 0.96);
+  --track: rgba(255, 255, 255, 0.06);
+  --hover: rgba(255, 255, 255, 0.04);
+  --shadow: rgba(0, 0, 0, 0.55);
+  --cloud: rgba(110, 150, 255, 0.16);
+  --primary-bg: #eef0f7;
+  --primary-fg: #010521;
+  --primary-hover: #ffffff;
+}
+
+:root {
+  --danger: #ff4d2e;
   --font-sans: 'Geist', 'Inter', system-ui, sans-serif;
+  --theme-ease: 0.5s ease;
+  transition:
+    --bg var(--theme-ease), --sky var(--theme-ease), --accent var(--theme-ease),
+    --ink var(--theme-ease), --ink-soft var(--theme-ease),
+    --muted var(--theme-ease), --hairline var(--theme-ease), --glass var(--theme-ease),
+    --glass-strong var(--theme-ease), --glass-edge var(--theme-ease), --surface var(--theme-ease),
+    --panel var(--theme-ease), --track var(--theme-ease), --hover var(--theme-ease),
+    --shadow var(--theme-ease), --cloud var(--theme-ease), --primary-bg var(--theme-ease),
+    --primary-fg var(--theme-ease), --primary-hover var(--theme-ease);
 }
 
 * {
@@ -36,13 +107,18 @@ input {
   color: inherit;
 }
 
-/* ---------- Background: sky fading into gray, with soft drifting clouds ---------- */
+/* ---------- Background: sky fading into the page color, with soft drifting clouds ---------- */
 .sky {
   position: fixed;
   inset: 0;
   z-index: -1;
   overflow: hidden;
-  background: linear-gradient(180deg, var(--sky) 0%, #c9f1ff 30%, var(--bg) 70%);
+  background: linear-gradient(
+    180deg,
+    var(--sky) 0%,
+    color-mix(in srgb, var(--sky) 45%, var(--bg)) 30%,
+    var(--bg) 70%
+  );
 }
 
 .sky::before,
@@ -59,7 +135,7 @@ input {
   height: 40vh;
   top: 8vh;
   left: -10vw;
-  background: rgba(255, 255, 255, 0.85);
+  background: var(--cloud);
 }
 
 .sky::after {
@@ -67,7 +143,7 @@ input {
   height: 35vh;
   top: 20vh;
   right: -12vw;
-  background: rgba(222, 241, 5, 0.25);
+  background: color-mix(in srgb, var(--accent) 22%, transparent);
   animation-duration: 24s;
 }
 
@@ -99,10 +175,10 @@ input {
   backdrop-filter: blur(16px) saturate(140%);
   -webkit-backdrop-filter: blur(16px) saturate(140%);
   box-shadow:
-    inset 0 0 0 1px rgba(255, 255, 255, 0.6),
+    inset 0 0 0 1px var(--glass-edge),
     0 0 0 1px var(--hairline),
-    0 1px 1px rgba(1, 5, 33, 0.05),
-    0 24px 48px -24px rgba(1, 5, 33, 0.18);
+    0 1px 1px var(--track),
+    0 24px 48px -24px var(--shadow);
 }
 
 .card {
@@ -145,12 +221,25 @@ input {
   color: var(--ink-soft);
 }
 
-.chip__dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 0 3px rgba(222, 241, 5, 0.3);
+/* App mark (see Logo.jsx) */
+.logo {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--ink);
+}
+
+.chip .logo {
+  width: 14px;
+  height: 14px;
+}
+
+.logo__check {
+  fill: none;
+  stroke: var(--bg);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 /* ---------- Nav ---------- */
@@ -163,7 +252,7 @@ input {
   max-width: 640px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   padding: 8px 8px 8px 18px;
   border-radius: 1000px;
   z-index: 10;
@@ -179,11 +268,19 @@ input {
 
 .nav__user {
   margin-left: auto;
+  margin-right: 4px;
   font-size: 13px;
   color: var(--muted);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.floating-actions {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
 }
 
 /* ---------- Buttons ---------- */
@@ -203,13 +300,13 @@ input {
 }
 
 .btn--primary {
-  background: var(--ink);
-  color: #fff;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 4px rgba(1, 5, 33, 0.2);
+  background: var(--primary-bg);
+  color: var(--primary-fg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 4px var(--shadow);
 }
 
 .btn--primary:hover {
-  background: #111639;
+  background: var(--primary-hover);
 }
 
 .btn--primary:disabled {
@@ -224,7 +321,16 @@ input {
 }
 
 .btn--ghost:hover {
-  background: #fff;
+  background: var(--surface);
+}
+
+.btn--icon {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  display: grid;
+  place-items: center;
 }
 
 .btn--block {
@@ -249,7 +355,7 @@ input {
 }
 
 .icon-btn:hover {
-  background: rgba(255, 63, 29, 0.1);
+  background: color-mix(in srgb, var(--danger) 12%, transparent);
   color: var(--danger);
 }
 
@@ -262,6 +368,154 @@ input {
   .icon-btn {
     opacity: 1;
   }
+}
+
+/* ---------- Theme menu ---------- */
+.theme-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  width: 300px;
+  max-width: calc(100vw - 32px);
+  padding: 16px;
+  border-radius: 20px;
+  background: var(--panel);
+  box-shadow:
+    0 0 0 1px var(--hairline),
+    0 24px 48px -16px var(--shadow);
+  transform-origin: top right;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px) scale(0.96);
+  transition:
+    opacity 0.2s ease,
+    transform 0.45s cubic-bezier(0.34, 1.36, 0.64, 1),
+    visibility 0s linear 0.2s;
+}
+
+.theme-panel.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity 0.2s ease,
+    transform 0.45s cubic-bezier(0.34, 1.36, 0.64, 1);
+}
+
+.theme-panel__title {
+  margin: 0 0 12px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.theme-panel__label {
+  margin: 16px 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+/* Smoothly expands to its content height */
+.collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.45s cubic-bezier(0.25, 0.8, 0.25, 1),
+    opacity 0.3s ease;
+}
+
+.collapsible.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.collapsible__inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  padding: 2px;
+}
+
+.swatch {
+  position: relative;
+  height: 44px;
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(180deg, var(--swatch-sky) 0%, var(--swatch-bg) 80%);
+  box-shadow: inset 0 0 0 1px var(--hairline);
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.34, 1.36, 0.64, 1), box-shadow 0.2s;
+}
+
+.swatch:hover {
+  transform: translateY(-1px);
+}
+
+.swatch.is-active {
+  box-shadow: inset 0 0 0 1px var(--hairline), 0 0 0 2px var(--ink);
+}
+
+.swatch__dot {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--swatch-accent);
+}
+
+.color-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.color-field + .color-field {
+  border-top: 1px solid var(--hairline);
+}
+
+.color-field__hex {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.color-field input[type='color'] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  box-shadow: 0 0 0 1px var(--hairline);
+  cursor: pointer;
+}
+
+.color-field input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.color-field input[type='color']::-webkit-color-swatch {
+  border: 0;
+  border-radius: 50%;
+}
+
+.color-field input[type='color']::-moz-color-swatch {
+  border: 0;
+  border-radius: 50%;
 }
 
 /* ---------- Form fields ---------- */
@@ -354,8 +608,10 @@ input {
 }
 
 .input:focus {
-  background: #fff;
-  box-shadow: inset 0 0 0 1px var(--ink), 0 0 0 4px rgba(151, 230, 255, 0.6);
+  background: var(--surface);
+  box-shadow:
+    inset 0 0 0 1px var(--ink),
+    0 0 0 4px color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
 .input--error {
@@ -366,7 +622,7 @@ input {
   margin: 0;
   padding: 10px 14px;
   border-radius: 12px;
-  background: rgba(255, 63, 29, 0.08);
+  background: color-mix(in srgb, var(--danger) 10%, transparent);
   color: var(--danger);
   font-size: 14px;
 }
@@ -415,18 +671,18 @@ input {
   display: flex;
   padding: 3px;
   border-radius: 1000px;
-  background: rgba(1, 5, 33, 0.05);
+  background: var(--track);
 }
 
-/* One white pill that glides between options; the overshooting curve gives it a springy settle */
+/* One pill that glides between options; the overshooting curve gives it a springy settle */
 .segmented__indicator {
   position: absolute;
   top: 3px;
   bottom: 3px;
   left: 0;
   border-radius: 1000px;
-  background: #fff;
-  box-shadow: 0 0 0 1px var(--hairline), 0 1px 2px rgba(1, 5, 33, 0.08);
+  background: var(--surface);
+  box-shadow: 0 0 0 1px var(--hairline), 0 1px 2px var(--track);
   transition:
     transform 0.5s cubic-bezier(0.34, 1.36, 0.64, 1),
     width 0.5s cubic-bezier(0.34, 1.36, 0.64, 1);
@@ -472,7 +728,7 @@ input {
 }
 
 .todo:hover {
-  background: rgba(255, 255, 255, 0.6);
+  background: var(--hover);
 }
 
 @keyframes pop-in {
@@ -502,44 +758,64 @@ input {
   text-decoration: line-through;
 }
 
+/* Thin outlined circle that fills with ink; the check draws itself in (see TodoItem.jsx) */
 .checkbox {
-  appearance: none;
+  position: relative;
   flex-shrink: 0;
   width: 20px;
   height: 20px;
+}
+
+.checkbox__input {
+  appearance: none;
+  position: absolute;
+  inset: 0;
   margin: 0;
   border-radius: 50%;
-  background: #fff;
-  box-shadow: inset 0 0 0 1.5px rgba(1, 5, 33, 0.25);
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--ink) 28%, transparent);
   cursor: pointer;
-  display: grid;
-  place-content: center;
-  transition: background 0.15s, box-shadow 0.15s;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.checkbox::after {
-  content: '';
-  width: 5px;
-  height: 9px;
-  margin-top: -2px;
-  border: solid var(--ink);
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg) scale(0);
-  transition: transform 0.15s;
+.checkbox__input:hover {
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--ink) 55%, transparent);
 }
 
-.checkbox:checked {
-  background: var(--lime);
-  box-shadow: inset 0 0 0 1.5px rgba(1, 5, 33, 0.15);
+.checkbox__input:active {
+  transform: scale(0.88);
 }
 
-.checkbox:checked::after {
-  transform: rotate(45deg) scale(1);
+.checkbox__input:checked {
+  background: var(--ink);
+  box-shadow: inset 0 0 0 1.5px var(--ink);
 }
 
-.checkbox:focus-visible {
-  outline: 2px solid var(--ink);
+.checkbox__input:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent) 60%, transparent);
   outline-offset: 2px;
+}
+
+.checkbox__icon {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  fill: none;
+  stroke: var(--bg);
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.15s ease;
+}
+
+.checkbox__input:checked + .checkbox__icon {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.65, 0, 0.35, 1) 0.06s;
 }
 
 .empty {
@@ -568,8 +844,11 @@ input {
     animation: none;
   }
 
+  :root,
   .segmented__indicator,
-  .caret {
+  .caret,
+  .theme-panel,
+  .collapsible {
     transition: none;
   }
 }

@@ -2,7 +2,14 @@ import { useState } from 'react';
 import { useTodos } from '../useTodos.js';
 import TodoForm from '../components/TodoForm.jsx';
 import TodoItem from '../components/TodoItem.jsx';
-import TodoFilters from '../components/TodoFilters.jsx';
+import SegmentedControl from '../components/SegmentedControl.jsx';
+import Logo from '../components/Logo.jsx';
+
+const FILTER_OPTIONS = [
+  { value: 'all', label: 'All' },
+  { value: 'active', label: 'Active' },
+  { value: 'completed', label: 'Completed' },
+];
 
 const FILTERS = {
   all: () => true,
@@ -10,7 +17,7 @@ const FILTERS = {
   completed: (todo) => todo.completed,
 };
 
-export default function TodoPage({ user, onLogout }) {
+export default function TodoPage({ user, onLogout, themeMenu }) {
   const { todos, addTodo, toggleTodo, deleteTodo } = useTodos();
   const [filter, setFilter] = useState('all');
 
@@ -21,9 +28,10 @@ export default function TodoPage({ user, onLogout }) {
     <>
       <header className="nav glass">
         <span className="nav__brand">
-          <span className="chip__dot" /> Todo
+          <Logo /> Todo
         </span>
         <span className="nav__user">{user}</span>
+        {themeMenu}
         <button className="btn btn--ghost" onClick={onLogout}>
           Log out
         </button>
@@ -46,7 +54,12 @@ export default function TodoPage({ user, onLogout }) {
           <TodoForm onAdd={addTodo} />
 
           <div className="toolbar">
-            <TodoFilters current={filter} onChange={setFilter} />
+            <SegmentedControl
+              options={FILTER_OPTIONS}
+              value={filter}
+              onChange={setFilter}
+              label="Filter todos"
+            />
             <span className="counter">
               {remainingCount} {remainingCount === 1 ? 'item' : 'items'} left
             </span>

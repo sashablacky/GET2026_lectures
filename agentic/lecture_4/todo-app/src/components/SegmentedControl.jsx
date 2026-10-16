@@ -1,12 +1,7 @@
 import { useLayoutEffect, useRef, useState } from 'react';
 
-const FILTER_OPTIONS = [
-  { value: 'all', label: 'All' },
-  { value: 'active', label: 'Active' },
-  { value: 'completed', label: 'Completed' },
-];
-
-export default function TodoFilters({ current, onChange }) {
+/** A row of options with one pill that slides under the selected option. */
+export default function SegmentedControl({ options, value, onChange, label }) {
   const containerRef = useRef(null);
   const buttonRefs = useRef({});
   const [indicator, setIndicator] = useState(null);
@@ -14,7 +9,7 @@ export default function TodoFilters({ current, onChange }) {
   // Move the sliding pill under the active button, and keep it there when the layout resizes.
   useLayoutEffect(() => {
     function measure() {
-      const button = buttonRefs.current[current];
+      const button = buttonRefs.current[value];
       if (button) setIndicator({ left: button.offsetLeft, width: button.offsetWidth });
     }
 
@@ -22,23 +17,24 @@ export default function TodoFilters({ current, onChange }) {
     const observer = new ResizeObserver(measure);
     observer.observe(containerRef.current);
     return () => observer.disconnect();
-  }, [current]);
+  }, [value]);
 
   return (
-    <div className="segmented" role="group" aria-label="Filter todos" ref={containerRef}>
+    <div className="segmented" role="group" aria-label={label} ref={containerRef}>
       {indicator && (
         <span
           className="segmented__indicator"
           style={{ transform: `translateX(${indicator.left}px)`, width: indicator.width }}
         />
       )}
-      {FILTER_OPTIONS.map((option) => (
+      {options.map((option) => (
         <button
           key={option.value}
+          type="button"
           ref={(el) => (buttonRefs.current[option.value] = el)}
-          className={`segmented__btn ${current === option.value ? 'is-active' : ''}`}
+          className={`segmented__btn ${value === option.value ? 'is-active' : ''}`}
           onClick={() => onChange(option.value)}
-          aria-pressed={current === option.value}
+          aria-pressed={value === option.value}
         >
           {option.label}
         </button>

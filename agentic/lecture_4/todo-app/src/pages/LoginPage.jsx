@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { DEMO_USER, login } from '../auth.js';
 import SmoothInput from '../components/SmoothInput.jsx';
+import Logo from '../components/Logo.jsx';
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -13,7 +14,7 @@ function validate(email, password) {
   return errors;
 }
 
-export default function LoginPage({ onLogin }) {
+export default function LoginPage({ onLogin, themeMenu }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({});
@@ -34,9 +35,10 @@ export default function LoginPage({ onLogin }) {
 
   return (
     <main className="page page--center">
+      <div className="floating-actions">{themeMenu}</div>
       <div className="hero">
         <span className="chip">
-          <span className="chip__dot" /> Todo · v1.0
+          <Logo /> Todo · v1.0
         </span>
         <h1 className="hero__title">
           Everything you need to do.
