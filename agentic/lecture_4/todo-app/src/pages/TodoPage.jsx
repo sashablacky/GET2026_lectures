@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { useTodos } from '../useTodos.js';
+import { useReminders } from '../useReminders.js';
+import { showSystemNotification } from '../reminders.js';
 import TodoForm from '../components/TodoForm.jsx';
 import TodoItem from '../components/TodoItem.jsx';
 import SegmentedControl from '../components/SegmentedControl.jsx';
 import Logo from '../components/Logo.jsx';
+import ReminderToasts from '../components/ReminderToasts.jsx';
 
 const FILTER_OPTIONS = [
   { value: 'all', label: 'All' },
@@ -18,8 +21,38 @@ const FILTERS = {
 };
 
 export default function TodoPage({ user, onLogout, themeMenu }) {
-  const { todos, addTodo, toggleTodo, deleteTodo } = useTodos();
+  const {
+    todos,
+    addTodo,
+    toggleTodo,
+    completeTodo,
+    deleteTodo,
+    setReminder,
+    markReminded,
+    snoozeReminder,
+  } = useTodos();
   const [filter, setFilter] = useState('all');
+  const [toasts, setToasts] = useState([]);
+
+  useReminders(todos, (todo) => {
+    showSystemNotification(todo);
+    setToasts((current) => [...current.filter((t) => t.id !== todo.id), { id: todo.id, text: todo.text }]);
+    markReminded(todo.id);
+  });
+
+  function dismissToast(id) {
+    setToasts((current) => current.filter((toast) => toast.id !== id));
+  }
+
+  function handleDelete(id) {
+    deleteTodo(id);
+    dismissToast(id);
+  }
+
+  function handleToggle(id) {
+    toggleTodo(id);
+    dismissToast(id);
+  }
 
   const visibleTodos = todos.filter(FILTERS[filter]);
   const remainingCount = todos.filter(FILTERS.active).length;
@@ -72,12 +105,31 @@ export default function TodoPage({ user, onLogout, themeMenu }) {
           ) : (
             <ul className="todo-list">
               {visibleTodos.map((todo) => (
-                <TodoItem key={todo.id} todo={todo} onToggle={toggleTodo} onDelete={deleteTodo} />
+                <TodoItem
+                  key={todo.id}
+                  todo={todo}
+                  onToggle={handleToggle}
+                  onDelete={handleDelete}
+                  onSetReminder={setReminder}
+                />
               ))}
             </ul>
           )}
         </section>
       </main>
+
+      <ReminderToasts
+        toasts={toasts}
+        onComplete={(id) => {
+          completeTodo(id);
+          dismissToast(id);
+        }}
+        onSnooze={(id) => {
+          snoozeReminder(id);
+          dismissToast(id);
+        }}
+        onDismiss={dismissToast}
+      />
     </>
   );
 }

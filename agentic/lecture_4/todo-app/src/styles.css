@@ -37,7 +37,7 @@
   --glass-strong: rgba(255, 255, 255, 0.8);
   --glass-edge: rgba(255, 255, 255, 0.6);
   --surface: #ffffff;
-  --panel: rgba(255, 255, 255, 0.94);
+  --panel: color-mix(in srgb, var(--bg) 25%, #ffffff);
   --track: rgba(1, 5, 33, 0.05);
   --hover: rgba(255, 255, 255, 0.6);
   --shadow: rgba(1, 5, 33, 0.18);
@@ -60,7 +60,7 @@
   --glass-strong: rgba(255, 255, 255, 0.07);
   --glass-edge: rgba(255, 255, 255, 0.06);
   --surface: #2e3770;
-  --panel: rgba(16, 20, 44, 0.96);
+  --panel: color-mix(in srgb, var(--bg) 90%, #ffffff);
   --track: rgba(255, 255, 255, 0.06);
   --hover: rgba(255, 255, 255, 0.04);
   --shadow: rgba(0, 0, 0, 0.55);
@@ -333,6 +333,25 @@ input {
   place-items: center;
 }
 
+.btn--sm {
+  padding: 7px 14px;
+  font-size: 13px;
+}
+
+.text-btn {
+  border: 0;
+  padding: 6px 2px;
+  background: none;
+  font-size: 13px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.text-btn:hover {
+  color: var(--danger);
+}
+
 .btn--block {
   width: 100%;
   padding: 13px 18px;
@@ -343,6 +362,9 @@ input {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  padding: 0;
   border: 0;
   border-radius: 50%;
   background: transparent;
@@ -355,12 +377,18 @@ input {
 }
 
 .icon-btn:hover {
+  background: var(--track);
+  color: var(--ink);
+}
+
+.icon-btn--delete:hover {
   background: color-mix(in srgb, var(--danger) 12%, transparent);
   color: var(--danger);
 }
 
 .icon-btn:focus-visible,
-.todo:hover .icon-btn {
+.todo:hover .icon-btn,
+.reminder-menu.is-open .icon-btn {
   opacity: 1;
 }
 
@@ -370,11 +398,12 @@ input {
   }
 }
 
-/* ---------- Theme menu ---------- */
-.theme-panel {
+/* ---------- Popover (theme + reminder menus) ---------- */
+.popover {
   position: absolute;
   top: calc(100% + 10px);
-  right: 0;
+  left: 0;
+  z-index: 20;
   width: 300px;
   max-width: calc(100vw - 32px);
   padding: 16px;
@@ -383,7 +412,7 @@ input {
   box-shadow:
     0 0 0 1px var(--hairline),
     0 24px 48px -16px var(--shadow);
-  transform-origin: top right;
+  transform-origin: top left;
   opacity: 0;
   visibility: hidden;
   transform: translateY(-6px) scale(0.96);
@@ -393,7 +422,13 @@ input {
     visibility 0s linear 0.2s;
 }
 
-.theme-panel.is-open {
+.popover--end {
+  left: auto;
+  right: 0;
+  transform-origin: top right;
+}
+
+.popover.is-open {
   opacity: 1;
   visibility: visible;
   transform: none;
@@ -402,17 +437,29 @@ input {
     transform 0.45s cubic-bezier(0.34, 1.36, 0.64, 1);
 }
 
-.theme-panel__title {
+.popover__title {
   margin: 0 0 12px;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
 
-.theme-panel__label {
+.popover__label {
   margin: 16px 0 8px;
   font-size: 13px;
   font-weight: 500;
   color: var(--ink-soft);
+}
+
+.popover__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.popover__footer .text-btn {
+  margin-right: auto;
 }
 
 /* Smoothly expands to its content height */
@@ -643,12 +690,248 @@ input {
 /* ---------- Todos ---------- */
 .todo-form {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-form__row {
+  display: flex;
   gap: 8px;
 }
 
-.todo-form .input {
+.todo-form__row .input {
   border-radius: 1000px;
   padding-left: 18px;
+}
+
+.todo-form__options {
+  display: flex;
+  gap: 8px;
+  padding-left: 4px;
+}
+
+/* ---------- Reminders ---------- */
+.icon {
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.reminder-menu {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Pill under the new-todo input that opens the reminder menu */
+.option-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px 6px 12px;
+  border: 0;
+  border-radius: 1000px;
+  background: var(--track);
+  font-size: 13px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.option-chip:hover {
+  color: var(--ink);
+}
+
+.option-chip.is-set {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--hairline);
+}
+
+.option-chip__chevron {
+  display: grid;
+  color: var(--muted);
+  transition: transform 0.35s cubic-bezier(0.34, 1.36, 0.64, 1);
+}
+
+.reminder-menu.is-open .option-chip__chevron {
+  transform: rotate(180deg);
+}
+
+/* Reminder time shown on a todo row */
+.reminder-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 9px;
+  border: 0;
+  border-radius: 1000px;
+  background: transparent;
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.reminder-badge:hover {
+  background: var(--track);
+  color: var(--ink);
+}
+
+.reminder-badge.is-overdue {
+  color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 9%, transparent);
+}
+
+.todo--done .reminder-badge {
+  opacity: 0.6;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 9px 10px 9px 6px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.menu-item:hover {
+  background: var(--track);
+}
+
+.menu-item.is-active {
+  font-weight: 500;
+}
+
+.menu-item__check {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  color: var(--ink);
+}
+
+.menu-item__label {
+  flex: 1;
+}
+
+.menu-item__hint {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.menu-item__chevron {
+  display: grid;
+  color: var(--muted);
+  transition: transform 0.35s cubic-bezier(0.34, 1.36, 0.64, 1);
+}
+
+.menu-item__chevron.is-open {
+  transform: rotate(180deg);
+}
+
+.custom-time {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 8px;
+  padding: 8px 2px 2px;
+}
+
+.input--sm {
+  padding: 9px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.custom-time__error {
+  margin: 6px 2px 0;
+  font-size: 12px;
+  color: var(--danger);
+}
+
+/* Reminder notices */
+.toasts {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 340px;
+  max-width: calc(100vw - 32px);
+}
+
+.toast {
+  padding: 12px 14px 14px;
+  border-radius: 18px;
+  background: var(--panel);
+  box-shadow:
+    0 0 0 1px var(--hairline),
+    0 24px 48px -16px var(--shadow);
+  animation: toast-in 0.5s cubic-bezier(0.34, 1.36, 0.64, 1);
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.96);
+  }
+}
+
+.toast__head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.toast__close {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.toast__close:hover {
+  background: var(--track);
+  color: var(--ink);
+}
+
+.toast__text {
+  margin: 4px 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+  overflow-wrap: anywhere;
+}
+
+.toast__actions {
+  display: flex;
+  gap: 8px;
 }
 
 .toolbar {
@@ -847,8 +1130,14 @@ input {
   :root,
   .segmented__indicator,
   .caret,
-  .theme-panel,
-  .collapsible {
+  .popover,
+  .collapsible,
+  .option-chip__chevron,
+  .menu-item__chevron {
     transition: none;
+  }
+
+  .toast {
+    animation: none;
   }
 }

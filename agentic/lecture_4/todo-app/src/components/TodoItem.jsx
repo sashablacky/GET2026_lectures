@@ -1,4 +1,9 @@
-export default function TodoItem({ todo, onToggle, onDelete }) {
+import ReminderMenu from './ReminderMenu.jsx';
+import { isOverdue } from '../reminders.js';
+
+export default function TodoItem({ todo, onToggle, onDelete, onSetReminder }) {
+  const reminder = todo.remindAt ? { remindAt: todo.remindAt, repeat: todo.repeat ?? 'none' } : null;
+
   return (
     <li className={`todo ${todo.completed ? 'todo--done' : ''}`}>
       <label className="todo__label">
@@ -15,8 +20,15 @@ export default function TodoItem({ todo, onToggle, onDelete }) {
         </span>
         <span className="todo__text">{todo.text}</span>
       </label>
+      <ReminderMenu
+        trigger="compact"
+        align="end"
+        value={reminder}
+        onChange={(next) => onSetReminder(todo.id, next)}
+        isOverdue={isOverdue(todo)}
+      />
       <button
-        className="icon-btn"
+        className="icon-btn icon-btn--delete"
         onClick={() => onDelete(todo.id)}
         aria-label={`Delete "${todo.text}"`}
       >

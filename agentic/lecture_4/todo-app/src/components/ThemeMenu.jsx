@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import SegmentedControl from './SegmentedControl.jsx';
 import { PALETTE_PRESETS } from '../theme.js';
+import { useDismiss } from '../useDismiss.js';
 
 const MODE_OPTIONS = [
   { value: 'light', label: 'Light' },
@@ -27,24 +28,8 @@ export default function ThemeMenu({ theme, onChange }) {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
-  // Close when clicking outside or pressing Escape.
-  useEffect(() => {
-    if (!isOpen) return;
-
-    function handlePointerDown(event) {
-      if (!menuRef.current.contains(event.target)) setIsOpen(false);
-    }
-    function handleKeyDown(event) {
-      if (event.key === 'Escape') setIsOpen(false);
-    }
-
-    document.addEventListener('pointerdown', handlePointerDown);
-    document.addEventListener('keydown', handleKeyDown);
-    return () => {
-      document.removeEventListener('pointerdown', handlePointerDown);
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [isOpen]);
+  const close = useCallback(() => setIsOpen(false), []);
+  useDismiss(menuRef, isOpen, close);
 
   function setMode(mode) {
     onChange({ ...theme, mode });
@@ -70,13 +55,13 @@ export default function ThemeMenu({ theme, onChange }) {
         <ThemeIcon />
       </button>
 
-      <div className={`theme-panel ${isOpen ? 'is-open' : ''}`} role="dialog" aria-label="Appearance">
-        <p className="theme-panel__title">Appearance</p>
+      <div className={`popover popover--end theme-panel ${isOpen ? 'is-open' : ''}`} role="dialog" aria-label="Appearance">
+        <p className="popover__title">Appearance</p>
         <SegmentedControl options={MODE_OPTIONS} value={theme.mode} onChange={setMode} label="Theme" />
 
         <div className={`collapsible ${theme.mode === 'custom' ? 'is-open' : ''}`}>
           <div className="collapsible__inner">
-            <p className="theme-panel__label">Presets</p>
+            <p className="popover__label">Presets</p>
             <div className="swatches">
               {PALETTE_PRESETS.map((preset) => (
                 <button
@@ -94,7 +79,7 @@ export default function ThemeMenu({ theme, onChange }) {
               ))}
             </div>
 
-            <p className="theme-panel__label">Your colors</p>
+            <p className="popover__label">Your colors</p>
             {COLOR_FIELDS.map((field) => (
               <label key={field.key} className="color-field">
                 <span>{field.label}</span>
