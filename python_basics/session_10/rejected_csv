@@ -1,0 +1,5 @@
+id,merchant,amount,reason
+T3,uber,abc,amount is not a number
+T5,,500,missing merchant
+T7,Swiggy,-150,amount must be positive
+T2,amazon,2100,duplicate id
