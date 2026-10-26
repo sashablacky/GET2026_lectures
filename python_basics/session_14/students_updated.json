@@ -1,0 +1,20 @@
+[
+    {
+        "RollNo":101,
+        "Name":"Anil",
+        "Marks":85,
+        "Result":"Pass"
+    },
+    {
+        "RollNo":102,
+        "Name":"Priya",
+        "Marks":92,
+        "Result":"Pass"
+    },
+    {
+        "RollNo":103,
+        "Name":"Rahul",
+        "Marks":78,
+        "Result":"Pass"
+    }
+]
