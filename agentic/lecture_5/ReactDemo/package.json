@@ -5,9 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:e2e": "vite --port 4173 --strictPort",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cypress:open": "cypress open --e2e",
+    "cypress:run": "cypress run --e2e",
+    "cy:open": "start-server-and-test dev:e2e http://localhost:4173 cypress:open",
+    "cy:run": "start-server-and-test dev:e2e http://localhost:4173 cypress:run"
   },
   "dependencies": {
     "nanoid": "^6.0.2",
@@ -18,7 +23,9 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "cypress": "^16.2.0",
     "oxlint": "^1.88.0",
+    "start-server-and-test": "^3.0.13",
     "vite": "^8.3.4"
   }
 }

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import { nanoid } from 'nanoid'
+import Button from './component/Button'
+import InputField from './component/InputField'
+import TodoList from './component/TodoList'
 
 function App() {
   const [todo, addTodo] = useState("");
@@ -11,7 +14,7 @@ function App() {
     addTodo(e.target.value)
   }
 
-  const handleButtonClick = (e) => {
+  const handleButtonClick = () => {
     const currentTodoList = [...todoList]
     currentTodoList.push({
       id: nanoid(),
@@ -56,7 +59,7 @@ function App() {
 
   const handleDelete = (itemId) => {
     addTodoList(todoList.filter((item) => item.id !== itemId))
-    if (itemId === editingId) {                        // NEW
+    if (itemId === editingId) {
       handleCancel()
     }
   }
@@ -65,59 +68,30 @@ function App() {
 
   return (
     <>
-      <input type='text' value={todo} onChange={handleTodoChange} />
+      <InputField value={todo} onChange={handleTodoChange} />
 
       {isEditing ? (
         <>
-          <button disabled={todo.trim() === ""} onClick={handleSave} style={{ marginLeft: 10 }}>
-            Save
-          </button>
-          <button onClick={handleCancel} style={{ marginLeft: 10 }}>
-            Cancel
-          </button>
+          <Button label="Save" type="action" disabled={todo.trim() === ""} onClick={handleSave} />
+          <Button label="Cancel" type="danger" onClick={handleCancel} />
         </>
       ) : (
-        <button
+        <Button
+          label="Add Todo"
+          type="primary"
           disabled={todo.trim() === ""}
           onClick={handleButtonClick}
-          style={{ marginLeft: 10 }}
-        >
-          Add Todo
-        </button>
+        />
       )}
 
       <br />
       <br />
-      <table border={1}>
-        <thead>
-          <tr>
-            <th>Sl no</th>
-            <th>Todo Title</th>
-            <th>Is Completed</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {todoList.map((todoItem, index) => {
-            return (
-              <tr key={todoItem.id}>
-                <td>{index + 1}</td>
-                <td>{todoItem.title}</td>
-                <td>{todoItem.isCompleted ? "Completed" : "Not completed"}</td>
-                <td>
-                  {!todoItem.isCompleted && (
-                    <button onClick={() => markCompletedClick(todoItem.id)}>
-                      Mark as completed
-                    </button>
-                  )}
-                  <button onClick={() => handleEditClick(todoItem)}>Edit</button>
-                  <button onClick={() => handleDelete(todoItem.id)}>Delete</button>
-                </td>
-              </tr>
-            )
-          })}
-        </tbody>
-      </table>
+      <TodoList
+        todoList={todoList}
+        onMarkCompleted={markCompletedClick}
+        onEdit={handleEditClick}
+        onDelete={handleDelete}
+      />
     </>
   )
 }
