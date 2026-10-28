@@ -2,7 +2,13 @@ import Button from './Button'
 
 function TodoList({ todoList, onMarkCompleted, onEdit, onDelete }) {
   return (
-    <table border={1}>
+    <table border={1} className="todo-table">
+      <colgroup>
+        <col style={{ width: '10%' }} />
+        <col style={{ width: '35%' }} />
+        <col style={{ width: '15%' }} />
+        <col style={{ width: '40%' }} />
+      </colgroup>
       <thead>
         <tr>
           <th>Sl no</th>

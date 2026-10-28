@@ -66,6 +66,9 @@ function App() {
 
   const isEditing = editingId !== null
 
+  const incompleteTodos = todoList.filter((item) => !item.isCompleted)
+  const completedTodos = todoList.filter((item) => item.isCompleted)
+
   return (
     <>
       <InputField value={todo} onChange={handleTodoChange} />
@@ -86,12 +89,22 @@ function App() {
 
       <br />
       <br />
-      <TodoList
-        todoList={todoList}
-        onMarkCompleted={markCompletedClick}
-        onEdit={handleEditClick}
-        onDelete={handleDelete}
-      />
+      <h3>Incomplete</h3>
+        <TodoList
+          todoList={incompleteTodos}
+          onMarkCompleted={markCompletedClick}
+          onEdit={handleEditClick}
+          onDelete={handleDelete}
+        />
+
+        <h3>Completed</h3>
+        <TodoList
+          todoList={completedTodos}
+          onMarkCompleted={markCompletedClick}
+          onEdit={handleEditClick}
+          onDelete={handleDelete}
+        />
+
     </>
   )
 }
