@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\bin\Debug\net10.0\HelloWorld.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\bin\Debug\net10.0\HelloWorld.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\bin\Debug\net10.0\HelloWorld.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\bin\Debug\net10.0\HelloWorld.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\bin\Debug\net10.0\HelloWorld.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\refint\HelloWorld.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\HelloWorld.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\HelloWorld\obj\Debug\net10.0\ref\HelloWorld.dll

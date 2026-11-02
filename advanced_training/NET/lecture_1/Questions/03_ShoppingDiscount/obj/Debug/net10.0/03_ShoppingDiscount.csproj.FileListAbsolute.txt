@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\bin\Debug\net10.0\03_ShoppingDiscount.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\bin\Debug\net10.0\03_ShoppingDiscount.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\bin\Debug\net10.0\03_ShoppingDiscount.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\bin\Debug\net10.0\03_ShoppingDiscount.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\bin\Debug\net10.0\03_ShoppingDiscount.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\refint\03_ShoppingDiscount.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\03_ShoppingDiscount.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\03_ShoppingDiscount\obj\Debug\net10.0\ref\03_ShoppingDiscount.dll

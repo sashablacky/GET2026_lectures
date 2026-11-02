@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\bin\Debug\net10.0\09_StudentAttendance.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\bin\Debug\net10.0\09_StudentAttendance.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\bin\Debug\net10.0\09_StudentAttendance.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\bin\Debug\net10.0\09_StudentAttendance.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\bin\Debug\net10.0\09_StudentAttendance.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\refint\09_StudentAttendance.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\09_StudentAttendance.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\09_StudentAttendance\obj\Debug\net10.0\ref\09_StudentAttendance.dll

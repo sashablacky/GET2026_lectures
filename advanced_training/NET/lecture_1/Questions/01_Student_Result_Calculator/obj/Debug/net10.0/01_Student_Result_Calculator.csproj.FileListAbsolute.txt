@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\bin\Debug\net10.0\01_Student_Result_Calculator.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\bin\Debug\net10.0\01_Student_Result_Calculator.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\bin\Debug\net10.0\01_Student_Result_Calculator.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\bin\Debug\net10.0\01_Student_Result_Calculator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\bin\Debug\net10.0\01_Student_Result_Calculator.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\refint\01_Student_Result_Calculator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\01_Student_Result_Calculator.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\01_Student_Result_Calculator\obj\Debug\net10.0\ref\01_Student_Result_Calculator.dll

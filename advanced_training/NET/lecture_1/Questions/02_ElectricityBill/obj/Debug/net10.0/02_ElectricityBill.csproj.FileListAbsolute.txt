@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\bin\Debug\net10.0\02_ElectricityBill.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\bin\Debug\net10.0\02_ElectricityBill.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\bin\Debug\net10.0\02_ElectricityBill.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\bin\Debug\net10.0\02_ElectricityBill.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\bin\Debug\net10.0\02_ElectricityBill.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\refint\02_ElectricityBill.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\02_ElectricityBill.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\02_ElectricityBill\obj\Debug\net10.0\ref\02_ElectricityBill.dll

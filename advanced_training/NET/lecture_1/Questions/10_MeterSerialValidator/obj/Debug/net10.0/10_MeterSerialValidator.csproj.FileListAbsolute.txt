@@ -1,0 +1,15 @@
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\bin\Debug\net10.0\10_MeterSerialValidator.exe
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\bin\Debug\net10.0\10_MeterSerialValidator.deps.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\bin\Debug\net10.0\10_MeterSerialValidator.runtimeconfig.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\bin\Debug\net10.0\10_MeterSerialValidator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\bin\Debug\net10.0\10_MeterSerialValidator.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.AssemblyInfoInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.AssemblyInfo.cs
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.csproj.CoreCompileInputs.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.sourcelink.json
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\refint\10_MeterSerialValidator.dll
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.pdb
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\10_MeterSerialValidator.genruntimeconfig.cache
+C:\Dev\study\GET2026_lectures\advanced_training\NET\lecture_1\Questions\10_MeterSerialValidator\obj\Debug\net10.0\ref\10_MeterSerialValidator.dll
