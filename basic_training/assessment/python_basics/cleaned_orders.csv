@@ -1,0 +1,303 @@
+Order_ID,Customer_Name,City,Restaurant,Cuisine,Order_Date,Order_Value_INR,Delivery_Time_Min,Rating,Payment_Mode,Month,Day_Name,Delivery_Status,Rating_Band
+ORD10124,Neha Sharma,Chennai,Dum House,Biryani,2026-10-18,688.0,38.1280276816609,4.0,Card,10,Sunday,On time,Good
+ORD10296,Divya Hegde,Hyderabad,Filter Kaapi House,South Indian,2026-10-02,267.0,35.0,4.0,Card,10,Friday,On time,Good
+ORD10230,Pooja Iyer,Hyderabad,Biryani Bazaar,Biryani,2026-10-12,507.0,36.0,4.043321299638989,Card,10,Monday,On time,Good
+ORD10158,Anjali Nair,Bengaluru,Dosa Junction,South Indian,2026-10-09,125.0,55.0,4.0,Cash on Delivery,10,Friday,Late,Good
+ORD10172,Divya Shetty,Bengaluru,Cake Studio,Desserts,2026-10-12,230.0,42.0,3.0,Card,10,Monday,Late,Average
+ORD10140,Nikhil Bhat,Hyderabad,Nawabi Handi,Biryani,2026-10-23,874.0,31.0,4.043321299638989,UPI,10,Friday,On time,Good
+ORD10219,Divya Patil,Mangaluru,Royal Rasoi,North Indian,2026-10-04,575.0,35.0,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10227,Ishaan Kulkarni,Bengaluru,Dum House,Biryani,2026-10-03,947.0,51.0,4.0,UPI,10,Saturday,Late,Good
+ORD10207,Rahul Gowda,Bengaluru,Nawabi Handi,Biryani,2026-10-07,831.0,47.0,3.0,UPI,10,Wednesday,Late,Average
+ORD10015,Ananya Nair,Mysuru,Biryani Bazaar,Biryani,2026-10-13,587.0,35.0,4.0,Cash on Delivery,10,Tuesday,On time,Good
+ORD10220,Divya Joshi,Bengaluru,Dragon Bowl,Chinese,2026-10-15,315.0,30.0,3.0,Card,10,Thursday,On time,Average
+ORD10099,Meera Shetty,Hyderabad,Nawabi Handi,Biryani,2026-10-15,992.0,50.0,2.0,Card,10,Thursday,Late,Poor
+ORD10290,Sneha Shetty,Chennai,Wok Street,Chinese,2026-10-08,252.0,37.0,4.0,Card,10,Thursday,On time,Good
+ORD10283,Arjun Joshi,Mangaluru,Wok Street,Chinese,2026-10-20,229.0,38.0,4.0,UPI,10,Tuesday,On time,Good
+ORD10137,Meera Gowda,Hubballi,Filter Kaapi House,South Indian,2026-10-03,405.0,31.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10154,Aarav Iyer,Hyderabad,Filter Kaapi House,South Indian,2026-10-16,152.0,38.1280276816609,4.0,Card,10,Friday,On time,Good
+ORD10165,Rahul Rao,Bengaluru,Udupi Tiffins,South Indian,2026-10-19,147.0,53.0,3.0,UPI,10,Monday,Late,Average
+ORD10082,Nikhil Iyer,Mangaluru,Royal Rasoi,North Indian,2026-10-05,861.0,30.0,5.0,Card,10,Monday,On time,Excellent
+ORD10295,Lakshmi Menon,Mysuru,Dragon Bowl,Chinese,2026-10-19,224.0,38.1280276816609,5.0,Cash on Delivery,10,Monday,On time,Excellent
+ORD10054,Rohan Pillai,Hubballi,Dhaba Express,North Indian,2026-10-01,559.0,38.1280276816609,4.0,Card,10,Thursday,On time,Good
+ORD10266,Aditya Pillai,Bengaluru,Biryani Bazaar,Biryani,2026-10-17,649.0,44.0,4.0,Cash on Delivery,10,Saturday,Late,Good
+ORD10067,Ananya Gowda,Hubballi,Biryani Bazaar,Biryani,2026-10-01,447.0,29.0,3.0,UPI,10,Thursday,On time,Average
+ORD10183,Anjali Menon,Bengaluru,Punjabi Tadka,North Indian,2026-10-15,294.0,43.0,4.0,UPI,10,Thursday,Late,Good
+ORD10021,Aditya Bhat,Bengaluru,Nawabi Handi,Biryani,2026-10-23,485.0,50.0,4.043321299638989,Cash on Delivery,10,Friday,Late,Good
+ORD10017,Aditya Shetty,Chennai,Dosa Junction,South Indian,2026-10-11,132.0,37.0,3.0,UPI,10,Sunday,On time,Average
+ORD10061,Lakshmi Rao,Bengaluru,Filter Kaapi House,South Indian,2026-10-12,281.0,41.0,4.0,Cash on Delivery,10,Monday,Late,Good
+ORD10303,Lakshmi Naik,Mysuru,Dragon Bowl,Chinese,2026-10-07,256.0,39.0,4.043321299638989,UPI,10,Wednesday,On time,Good
+ORD10291,Karthik Kulkarni,Chennai,Royal Rasoi,North Indian,2026-10-10,716.0,27.0,5.0,Cash on Delivery,10,Saturday,On time,Excellent
+ORD10151,Rahul Sharma,Mangaluru,Filter Kaapi House,South Indian,2026-10-06,382.0,38.1280276816609,5.0,UPI,10,Tuesday,On time,Excellent
+ORD10084,Sneha Gowda,Mysuru,Biryani Bazaar,Biryani,2026-10-01,437.0,23.0,5.0,Cash on Delivery,10,Thursday,On time,Excellent
+ORD10013,Meera Bhat,Hyderabad,Cake Studio,Desserts,2026-10-21,204.0,43.0,4.0,Card,10,Wednesday,Late,Good
+ORD10297,Lakshmi Menon,Bengaluru,Filter Kaapi House,South Indian,2026-10-19,323.0,44.0,4.0,Card,10,Monday,Late,Good
+ORD10113,Suresh Patil,Bengaluru,Wok Street,Chinese,2026-10-09,379.0,48.0,3.0,UPI,10,Friday,Late,Average
+ORD10293,Arjun Reddy,Mangaluru,Sweet Tooth,Desserts,2026-10-13,154.0,46.0,4.0,Cash on Delivery,10,Tuesday,Late,Good
+ORD10273,Pooja Menon,Bengaluru,Biryani Bazaar,Biryani,2026-10-14,334.0,48.0,3.0,UPI,10,Wednesday,Late,Average
+ORD10218,Neha Rao,Hyderabad,Sweet Tooth,Desserts,2026-10-18,290.0,37.0,3.0,UPI,10,Sunday,On time,Average
+ORD10029,Aditya Joshi,Chennai,Wok Street,Chinese,2026-10-13,641.0,33.0,5.0,UPI,10,Tuesday,On time,Excellent
+ORD10117,Aditya Hegde,Mysuru,Biryani Bazaar,Biryani,2026-10-24,351.0,44.0,5.0,UPI,10,Saturday,Late,Excellent
+ORD10244,Meera Sharma,Hyderabad,Udupi Tiffins,South Indian,2026-10-22,274.0,31.0,4.0,Card,10,Thursday,On time,Good
+ORD10050,Nikhil Pillai,Bengaluru,Dhaba Express,North Indian,2026-10-15,583.0,30.0,4.0,UPI,10,Thursday,On time,Good
+ORD10234,Neha Menon,Mysuru,Ice Cream Lab,Desserts,2026-10-16,377.0,33.0,4.0,Cash on Delivery,10,Friday,On time,Good
+ORD10308,Kavya Gowda,Hyderabad,Biryani Bazaar,Biryani,2026-10-17,1077.0,31.0,5.0,Card,10,Saturday,On time,Excellent
+ORD10280,Aditya Rao,Mysuru,Nawabi Handi,Biryani,2026-10-17,1005.0,30.0,4.0,Cash on Delivery,10,Saturday,On time,Good
+ORD10198,Divya Menon,Hubballi,Dhaba Express,North Indian,2026-10-14,317.0,12.0,5.0,Cash on Delivery,10,Wednesday,On time,Excellent
+ORD10236,Rahul Hegde,Bengaluru,Dragon Bowl,Chinese,2026-10-12,445.0,56.0,3.0,UPI,10,Monday,Late,Average
+ORD10062,Suresh Naik,Chennai,Biryani Bazaar,Biryani,2026-10-15,932.0,40.0,5.0,Cash on Delivery,10,Thursday,On time,Excellent
+ORD10089,Pooja Rao,Bengaluru,Wok Street,Chinese,2026-10-07,438.0,54.0,4.0,Card,10,Wednesday,Late,Good
+ORD10160,Rohan Naik,Chennai,Punjabi Tadka,North Indian,2026-10-08,356.0,42.0,4.0,Card,10,Thursday,Late,Good
+ORD10176,Arjun Gowda,Bengaluru,Wok Street,Chinese,2026-10-22,666.0,58.0,4.0,Cash on Delivery,10,Thursday,Late,Good
+ORD10022,Arjun Iyer,Hyderabad,Nawabi Handi,Biryani,2026-10-11,303.0,46.0,4.0,UPI,10,Sunday,Late,Good
+ORD10053,Nikhil Sharma,Chennai,Dhaba Express,North Indian,2026-10-18,425.0,34.0,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10012,Rahul Nair,Bengaluru,Filter Kaapi House,South Indian,2026-10-11,225.0,40.0,4.0,UPI,10,Sunday,On time,Good
+ORD10204,Pooja Patil,Bengaluru,Dum House,Biryani,2026-10-19,339.0,47.0,3.0,UPI,10,Monday,Late,Average
+ORD10040,Karthik Sharma,Mangaluru,Wrap Lane,Fast Food,2026-10-14,482.0,32.0,4.0,UPI,10,Wednesday,On time,Good
+ORD10086,Vivaan Patil,Bengaluru,Filter Kaapi House,South Indian,2026-10-09,322.0,44.0,4.0,UPI,10,Friday,Late,Good
+ORD10189,Sneha Iyer,Chennai,Nawabi Handi,Biryani,2026-10-12,686.0,41.0,4.0,Card,10,Monday,Late,Good
+ORD10135,Kavya Reddy,Bengaluru,Biryani Bazaar,Biryani,2026-10-09,958.0,61.0,4.043321299638989,UPI,10,Friday,Late,Good
+ORD10083,Kavya Hegde,Chennai,Dosa Junction,South Indian,2026-10-02,315.0,40.0,4.0,UPI,10,Friday,On time,Good
+ORD10170,Aditya Iyer,Hyderabad,Biryani Bazaar,Biryani,2026-10-05,599.0,48.0,4.0,UPI,10,Monday,Late,Good
+ORD10268,Ishaan Gowda,Chennai,Royal Rasoi,North Indian,2026-10-02,891.0,33.0,5.0,Cash on Delivery,10,Friday,On time,Excellent
+ORD10251,Pooja Iyer,Hubballi,Biryani Bazaar,Biryani,2026-10-11,718.0,17.0,5.0,UPI,10,Sunday,On time,Excellent
+ORD10009,Rahul Patil,Bengaluru,Biryani Bazaar,Biryani,2026-10-16,476.0,38.1280276816609,4.043321299638989,Card,10,Friday,On time,Good
+ORD10250,Aarav Menon,Hubballi,Cake Studio,Desserts,2026-10-09,282.0,40.0,3.0,UPI,10,Friday,On time,Average
+ORD10003,Diya Sharma,Chennai,Dragon Bowl,Chinese,2026-10-21,287.0,39.0,3.0,UPI,10,Wednesday,On time,Average
+ORD10206,Ishaan Joshi,Hyderabad,Dragon Bowl,Chinese,2026-10-16,412.0,46.0,5.0,UPI,10,Friday,Late,Excellent
+ORD10187,Meera Hegde,Mysuru,Sweet Tooth,Desserts,2026-10-11,131.0,36.0,4.043321299638989,Cash on Delivery,10,Sunday,On time,Good
+ORD10272,Vivaan Bhat,Bengaluru,Wok Street,Chinese,2026-10-03,585.0,37.0,4.0,UPI,10,Saturday,On time,Good
+ORD10175,Meera Patil,Mysuru,Udupi Tiffins,South Indian,2026-10-18,296.0,28.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10104,Meera Iyer,Hyderabad,Dragon Bowl,Chinese,2026-10-06,277.0,39.0,5.0,Cash on Delivery,10,Tuesday,On time,Excellent
+ORD10026,Kavya Sharma,Mysuru,Dum House,Biryani,2026-10-06,526.0,29.0,4.0,Card,10,Tuesday,On time,Good
+ORD10103,Ishaan Bhat,Bengaluru,Udupi Tiffins,South Indian,2026-10-17,216.0,35.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10102,Suresh Nair,Hubballi,Royal Rasoi,North Indian,2026-10-19,447.0,38.0,5.0,Card,10,Monday,On time,Excellent
+ORD10287,Rahul Rao,Hyderabad,Punjabi Tadka,North Indian,2026-10-08,663.0,21.0,4.043321299638989,UPI,10,Thursday,On time,Good
+ORD10032,Divya Nair,Bengaluru,Dum House,Biryani,2026-10-07,1021.0,58.0,4.0,Cash on Delivery,10,Wednesday,Late,Good
+ORD10262,Rahul Sharma,Bengaluru,Dhaba Express,North Indian,2026-10-05,692.0,44.0,4.0,Cash on Delivery,10,Monday,Late,Good
+ORD10023,Nikhil Sharma,Bengaluru,Burger Barn,Fast Food,2026-10-22,538.0,38.0,4.0,Card,10,Thursday,On time,Good
+ORD10063,Sneha Bhat,Mangaluru,Filter Kaapi House,South Indian,2026-10-15,134.0,38.1280276816609,5.0,Card,10,Thursday,On time,Excellent
+ORD10271,Rohan Reddy,Bengaluru,Dhaba Express,North Indian,2026-10-15,486.0,49.0,3.0,UPI,10,Thursday,Late,Average
+ORD10070,Meera Bhat,Mangaluru,Nawabi Handi,Biryani,2026-10-23,404.0,24.0,4.0,Card,10,Friday,On time,Good
+ORD10217,Nikhil Menon,Hubballi,Udupi Tiffins,South Indian,2026-10-05,367.0,26.0,4.0,Card,10,Monday,On time,Good
+ORD10235,Karthik Bhat,Bengaluru,Punjabi Tadka,North Indian,2026-10-25,283.0,54.0,3.0,Card,10,Sunday,Late,Average
+ORD10055,Aarav Patil,Mysuru,Udupi Tiffins,South Indian,2026-10-22,229.0,25.0,5.0,UPI,10,Thursday,On time,Excellent
+ORD10306,Vivaan Kulkarni,Hyderabad,Nawabi Handi,Biryani,2026-10-18,544.0,34.0,4.043321299638989,UPI,10,Sunday,On time,Good
+ORD10078,Aditya Reddy,Mangaluru,Dosa Junction,South Indian,2026-10-23,263.0,22.0,4.0,UPI,10,Friday,On time,Good
+ORD10215,Aditya Rao,Chennai,Burger Barn,Fast Food,2026-10-07,360.0,47.0,3.0,UPI,10,Wednesday,Late,Average
+ORD10228,Nikhil Kulkarni,Mysuru,Dhaba Express,North Indian,2026-10-04,676.0,38.1280276816609,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10156,Arjun Reddy,Hyderabad,Dum House,Biryani,2026-10-19,402.0,40.0,4.0,Cash on Delivery,10,Monday,On time,Good
+ORD10030,Suresh Gowda,Hubballi,Sweet Tooth,Desserts,2026-10-12,193.0,39.0,5.0,UPI,10,Monday,On time,Excellent
+ORD10045,Meera Bhat,Hyderabad,Dragon Bowl,Chinese,2026-10-19,289.0,40.0,5.0,UPI,10,Monday,On time,Excellent
+ORD10138,Aditya Reddy,Bengaluru,Wok Street,Chinese,2026-10-21,419.0,55.0,3.0,UPI,10,Wednesday,Late,Average
+ORD10304,Aditya Sharma,Bengaluru,Punjabi Tadka,North Indian,2026-10-01,307.0,36.0,4.0,Card,10,Thursday,On time,Good
+ORD10131,Karthik Kulkarni,Chennai,Udupi Tiffins,South Indian,2026-10-25,241.0,38.0,4.0,UPI,10,Sunday,On time,Good
+ORD10114,Divya Reddy,Hyderabad,Royal Rasoi,North Indian,2026-10-11,385.0,27.0,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10309,Rohan Nair,Mangaluru,Noodle Hub,Chinese,2026-10-02,493.0,45.0,4.0,UPI,10,Friday,Late,Good
+ORD10096,Neha Menon,Mysuru,Dragon Bowl,Chinese,2026-10-04,545.0,32.0,5.0,UPI,10,Sunday,On time,Excellent
+ORD10087,Karthik Pillai,Bengaluru,Dosa Junction,South Indian,2026-10-05,227.0,44.0,4.0,Cash on Delivery,10,Monday,Late,Good
+ORD10286,Neha Menon,Bengaluru,Udupi Tiffins,South Indian,2026-10-13,413.0,47.0,4.0,UPI,10,Tuesday,Late,Good
+ORD10100,Ananya Patil,Chennai,Nawabi Handi,Biryani,2026-10-02,363.0,37.0,4.0,UPI,10,Friday,On time,Good
+ORD10240,Meera Nair,Mangaluru,Filter Kaapi House,South Indian,2026-10-13,235.0,22.0,3.0,UPI,10,Tuesday,On time,Average
+ORD10238,Meera Nair,Mysuru,Punjabi Tadka,North Indian,2026-10-07,369.0,36.0,4.043321299638989,Cash on Delivery,10,Wednesday,On time,Good
+ORD10004,Nikhil Gowda,Bengaluru,Nawabi Handi,Biryani,2026-10-15,395.0,49.0,4.0,Cash on Delivery,10,Thursday,Late,Good
+ORD10056,Nikhil Shetty,Bengaluru,Wok Street,Chinese,2026-10-03,620.0,39.0,5.0,Card,10,Saturday,On time,Excellent
+ORD10184,Rahul Sharma,Bengaluru,Dum House,Biryani,2026-10-20,483.0,47.0,4.0,UPI,10,Tuesday,Late,Good
+ORD10307,Ishaan Nair,Bengaluru,Nawabi Handi,Biryani,2026-10-17,827.0,45.0,4.0,Card,10,Saturday,Late,Good
+ORD10231,Diya Bhat,Bengaluru,Wok Street,Chinese,2026-10-05,654.0,44.0,4.0,Card,10,Monday,Late,Good
+ORD10027,Ishaan Sharma,Bengaluru,Cake Studio,Desserts,2026-10-04,270.0,54.0,4.0,Card,10,Sunday,Late,Good
+ORD10136,Sneha Iyer,Hubballi,Biryani Bazaar,Biryani,2026-10-24,680.0,30.0,4.043321299638989,Cash on Delivery,10,Saturday,On time,Good
+ORD10200,Meera Joshi,Mysuru,Dosa Junction,South Indian,2026-10-25,249.0,35.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10185,Meera Hegde,Mangaluru,Biryani Bazaar,Biryani,2026-10-01,308.0,21.0,4.0,Card,10,Thursday,On time,Good
+ORD10038,Aarav Patil,Chennai,Dragon Bowl,Chinese,2026-10-19,650.0,22.0,4.0,Cash on Delivery,10,Monday,On time,Good
+ORD10052,Rohan Menon,Mysuru,Dhaba Express,North Indian,2026-10-25,653.0,12.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10037,Arjun Sharma,Hubballi,Dosa Junction,South Indian,2026-10-02,358.0,42.0,4.0,Cash on Delivery,10,Friday,Late,Good
+ORD10098,Aarav Gowda,Chennai,Nawabi Handi,Biryani,2026-10-21,686.0,37.0,4.0,UPI,10,Wednesday,On time,Good
+ORD10285,Sneha Naik,Bengaluru,Burger Barn,Fast Food,2026-10-17,541.0,36.0,4.0,Cash on Delivery,10,Saturday,On time,Good
+ORD10014,Nikhil Naik,Bengaluru,Dhaba Express,North Indian,2026-10-09,849.0,40.0,3.0,Card,10,Friday,On time,Average
+ORD10145,Rahul Rao,Mangaluru,Dosa Junction,South Indian,2026-10-06,317.0,19.0,5.0,UPI,10,Tuesday,On time,Excellent
+ORD10233,Arjun Patil,Mangaluru,Dosa Junction,South Indian,2026-10-24,262.0,41.0,4.0,Cash on Delivery,10,Saturday,Late,Good
+ORD10147,Kavya Bhat,Hyderabad,Nawabi Handi,Biryani,2026-10-17,1072.0,29.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10106,Pooja Iyer,Bengaluru,Filter Kaapi House,South Indian,2026-10-02,396.0,34.0,4.0,UPI,10,Friday,On time,Good
+ORD10213,Ishaan Reddy,Chennai,Pizza Point,Fast Food,2026-10-05,162.0,40.0,4.0,Cash on Delivery,10,Monday,On time,Good
+ORD10155,Aarav Pillai,Hubballi,Dosa Junction,South Indian,2026-10-23,248.0,37.0,5.0,Card,10,Friday,On time,Excellent
+ORD10010,Anjali Hegde,Hyderabad,Dum House,Biryani,2026-10-10,816.0,45.0,4.0,UPI,10,Saturday,Late,Good
+ORD10229,Ishaan Patil,Hyderabad,Noodle Hub,Chinese,2026-10-13,462.0,18.0,4.0,Card,10,Tuesday,On time,Good
+ORD10046,Diya Kulkarni,Chennai,Noodle Hub,Chinese,2026-10-22,397.0,33.0,4.0,Card,10,Thursday,On time,Good
+ORD10116,Karthik Patil,Hubballi,Ice Cream Lab,Desserts,2026-10-09,381.0,23.0,4.0,Cash on Delivery,10,Friday,On time,Good
+ORD10269,Arjun Hegde,Chennai,Udupi Tiffins,South Indian,2026-10-15,400.0,39.0,3.0,Cash on Delivery,10,Thursday,On time,Average
+ORD10025,Diya Sharma,Mangaluru,Dum House,Biryani,2026-10-17,1019.0,33.0,4.0,Card,10,Saturday,On time,Good
+ORD10166,Karthik Iyer,Bengaluru,Wrap Lane,Fast Food,2026-10-16,556.0,46.0,3.0,UPI,10,Friday,Late,Average
+ORD10144,Suresh Reddy,Hyderabad,Filter Kaapi House,South Indian,2026-10-05,345.0,47.0,4.0,UPI,10,Monday,Late,Good
+ORD10152,Neha Kulkarni,Chennai,Burger Barn,Fast Food,2026-10-25,472.0,38.1280276816609,4.0,UPI,10,Sunday,On time,Good
+ORD10127,Karthik Hegde,Hyderabad,Wrap Lane,Fast Food,2026-10-21,558.0,30.0,4.0,UPI,10,Wednesday,On time,Good
+ORD10275,Ishaan Sharma,Bengaluru,Punjabi Tadka,North Indian,2026-10-17,314.0,43.0,4.0,Card,10,Saturday,Late,Good
+ORD10174,Aarav Sharma,Hyderabad,Dum House,Biryani,2026-10-07,1086.0,44.0,4.0,UPI,10,Wednesday,Late,Good
+ORD10278,Vivaan Hegde,Hyderabad,Pizza Point,Fast Food,2026-10-14,190.0,48.0,3.0,Card,10,Wednesday,Late,Average
+ORD10034,Pooja Hegde,Mysuru,Wok Street,Chinese,2026-10-18,557.0,38.1280276816609,4.043321299638989,Cash on Delivery,10,Sunday,On time,Good
+ORD10202,Vivaan Nair,Chennai,Burger Barn,Fast Food,2026-10-22,563.0,47.0,4.0,UPI,10,Thursday,Late,Good
+ORD10123,Lakshmi Kulkarni,Hyderabad,Biryani Bazaar,Biryani,2026-10-05,475.0,57.0,3.0,Cash on Delivery,10,Monday,Late,Average
+ORD10064,Arjun Naik,Bengaluru,Burger Barn,Fast Food,2026-10-15,159.0,39.0,5.0,Cash on Delivery,10,Thursday,On time,Excellent
+ORD10197,Vivaan Naik,Chennai,Nawabi Handi,Biryani,2026-10-10,1012.0,40.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10257,Arjun Patil,Hyderabad,Cake Studio,Desserts,2026-10-15,446.0,43.0,3.0,UPI,10,Thursday,Late,Average
+ORD10001,Aditya Iyer,Bengaluru,Dhaba Express,North Indian,2026-10-18,451.0,44.0,4.043321299638989,UPI,10,Sunday,Late,Good
+ORD10122,Karthik Joshi,Mangaluru,Punjabi Tadka,North Indian,2026-10-11,801.0,21.0,4.0,Card,10,Sunday,On time,Good
+ORD10109,Ishaan Bhat,Hyderabad,Dragon Bowl,Chinese,2026-10-02,340.0,33.0,4.0,UPI,10,Friday,On time,Good
+ORD10288,Rohan Hegde,Bengaluru,Udupi Tiffins,South Indian,2026-10-03,207.0,49.0,4.0,Cash on Delivery,10,Saturday,Late,Good
+ORD10005,Karthik Patil,Mysuru,Wok Street,Chinese,2026-10-22,271.0,12.0,5.0,Card,10,Thursday,On time,Excellent
+ORD10299,Neha Reddy,Bengaluru,Filter Kaapi House,South Indian,2026-10-04,389.0,46.0,4.0,Card,10,Sunday,Late,Good
+ORD10058,Ishaan Hegde,Mysuru,Biryani Bazaar,Biryani,2026-10-20,355.0,43.0,5.0,Cash on Delivery,10,Tuesday,Late,Excellent
+ORD10139,Rahul Sharma,Hyderabad,Udupi Tiffins,South Indian,2026-10-06,354.0,38.0,4.0,UPI,10,Tuesday,On time,Good
+ORD10060,Ananya Joshi,Bengaluru,Dragon Bowl,Chinese,2026-10-15,456.0,26.0,5.0,UPI,10,Thursday,On time,Excellent
+ORD10301,Arjun Kulkarni,Hyderabad,Punjabi Tadka,North Indian,2026-10-06,537.0,51.0,3.0,UPI,10,Tuesday,Late,Average
+ORD10048,Lakshmi Reddy,Bengaluru,Wrap Lane,Fast Food,2026-10-22,500.0,38.1280276816609,4.0,UPI,10,Thursday,On time,Good
+ORD10222,Diya Reddy,Bengaluru,Pizza Point,Fast Food,2026-10-19,496.0,48.0,4.0,Cash on Delivery,10,Monday,Late,Good
+ORD10047,Vivaan Reddy,Hyderabad,Noodle Hub,Chinese,2026-10-09,230.0,34.0,3.0,Cash on Delivery,10,Friday,On time,Average
+ORD10181,Divya Shetty,Mysuru,Royal Rasoi,North Indian,2026-10-06,805.0,27.0,4.043321299638989,UPI,10,Tuesday,On time,Good
+ORD10121,Diya Kulkarni,Hyderabad,Pizza Point,Fast Food,2026-10-19,536.0,47.0,3.0,UPI,10,Monday,Late,Average
+ORD10031,Sneha Menon,Bengaluru,Nawabi Handi,Biryani,2026-10-19,914.0,46.0,4.0,Card,10,Monday,Late,Good
+ORD10171,Kavya Naik,Bengaluru,Ice Cream Lab,Desserts,2026-10-03,222.0,32.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10159,Rohan Kulkarni,Bengaluru,Filter Kaapi House,South Indian,2026-10-01,410.0,55.0,3.0,UPI,10,Thursday,Late,Average
+ORD10167,Karthik Joshi,Chennai,Udupi Tiffins,South Indian,2026-10-05,294.0,27.0,5.0,Cash on Delivery,10,Monday,On time,Excellent
+ORD10057,Rohan Kulkarni,Chennai,Pizza Point,Fast Food,2026-10-05,590.0,26.0,5.0,Card,10,Monday,On time,Excellent
+ORD10226,Aarav Rao,Mangaluru,Biryani Bazaar,Biryani,2026-10-01,1041.0,53.0,2.0,UPI,10,Thursday,Late,Poor
+ORD10190,Neha Gowda,Bengaluru,Royal Rasoi,North Indian,2026-10-08,862.0,25.0,4.0,UPI,10,Thursday,On time,Good
+ORD10211,Arjun Kulkarni,Bengaluru,Burger Barn,Fast Food,2026-10-07,547.0,33.0,4.0,UPI,10,Wednesday,On time,Good
+ORD10128,Ishaan Nair,Hyderabad,Ice Cream Lab,Desserts,2026-10-25,380.0,24.0,4.0,UPI,10,Sunday,On time,Good
+ORD10205,Rahul Gowda,Bengaluru,Nawabi Handi,Biryani,2026-10-18,608.0,48.0,3.0,Cash on Delivery,10,Sunday,Late,Average
+ORD10194,Arjun Rao,Bengaluru,Dhaba Express,North Indian,2026-10-12,575.0,50.0,4.0,Card,10,Monday,Late,Good
+ORD10043,Pooja Naik,Chennai,Pizza Point,Fast Food,2026-10-07,316.0,25.0,5.0,UPI,10,Wednesday,On time,Excellent
+ORD10282,Lakshmi Sharma,Chennai,Udupi Tiffins,South Indian,2026-10-05,156.0,35.0,5.0,Cash on Delivery,10,Monday,On time,Excellent
+ORD10223,Pooja Rao,Bengaluru,Dosa Junction,South Indian,2026-10-09,180.0,46.0,5.0,Cash on Delivery,10,Friday,Late,Excellent
+ORD10077,Kavya Menon,Bengaluru,Filter Kaapi House,South Indian,2026-10-06,419.0,47.0,5.0,UPI,10,Tuesday,Late,Excellent
+ORD10208,Arjun Nair,Mysuru,Dragon Bowl,Chinese,2026-10-19,691.0,34.0,4.0,UPI,10,Monday,On time,Good
+ORD10258,Pooja Shetty,Bengaluru,Royal Rasoi,North Indian,2026-10-18,376.0,51.0,4.0,Cash on Delivery,10,Sunday,Late,Good
+ORD10008,Divya Hegde,Bengaluru,Wrap Lane,Fast Food,2026-10-14,606.0,41.0,5.0,UPI,10,Wednesday,Late,Excellent
+ORD10074,Karthik Iyer,Bengaluru,Wrap Lane,Fast Food,2026-10-12,271.0,38.1280276816609,4.0,Card,10,Monday,On time,Good
+ORD10051,Rahul Gowda,Bengaluru,Dosa Junction,South Indian,2026-10-04,363.0,36.0,3.0,Card,10,Sunday,On time,Average
+ORD10267,Ishaan Hegde,Chennai,Dosa Junction,South Indian,2026-10-13,325.0,38.0,4.0,Cash on Delivery,10,Tuesday,On time,Good
+ORD10221,Karthik Hegde,Hyderabad,Filter Kaapi House,South Indian,2026-10-23,300.0,33.0,4.0,UPI,10,Friday,On time,Good
+ORD10153,Anjali Kulkarni,Hyderabad,Filter Kaapi House,South Indian,2026-10-11,402.0,37.0,4.043321299638989,UPI,10,Sunday,On time,Good
+ORD10033,Kavya Gowda,Chennai,Pizza Point,Fast Food,2026-10-03,375.0,39.0,4.043321299638989,UPI,10,Saturday,On time,Good
+ORD10016,Rohan Shetty,Bengaluru,Dosa Junction,South Indian,2026-10-16,336.0,54.0,3.0,Cash on Delivery,10,Friday,Late,Average
+ORD10203,Karthik Nair,Chennai,Sweet Tooth,Desserts,2026-10-03,364.0,50.0,3.0,UPI,10,Saturday,Late,Average
+ORD10095,Aarav Naik,Chennai,Filter Kaapi House,South Indian,2026-10-09,267.0,31.0,5.0,UPI,10,Friday,On time,Excellent
+ORD10108,Anjali Bhat,Bengaluru,Royal Rasoi,North Indian,2026-10-23,489.0,32.0,4.0,Cash on Delivery,10,Friday,On time,Good
+ORD10199,Aarav Bhat,Chennai,Ice Cream Lab,Desserts,2026-10-03,407.0,51.0,4.043321299638989,Cash on Delivery,10,Saturday,Late,Good
+ORD10148,Vivaan Joshi,Bengaluru,Pizza Point,Fast Food,2026-10-04,481.0,45.0,5.0,UPI,10,Sunday,Late,Excellent
+ORD10195,Rohan Naik,Chennai,Dragon Bowl,Chinese,2026-10-11,325.0,38.1280276816609,3.0,Card,10,Sunday,On time,Average
+ORD10079,Aditya Menon,Bengaluru,Noodle Hub,Chinese,2026-10-07,347.0,39.0,3.0,Cash on Delivery,10,Wednesday,On time,Average
+ORD10036,Arjun Hegde,Chennai,Filter Kaapi House,South Indian,2026-10-02,410.0,45.0,4.0,UPI,10,Friday,Late,Good
+ORD10180,Pooja Iyer,Hubballi,Dum House,Biryani,2026-10-03,650.0,34.0,4.0,UPI,10,Saturday,On time,Good
+ORD10173,Karthik Bhat,Bengaluru,Dosa Junction,South Indian,2026-10-23,390.0,34.0,4.0,Card,10,Friday,On time,Good
+ORD10018,Ananya Shetty,Hyderabad,Dum House,Biryani,2026-10-25,939.0,32.0,4.0,Card,10,Sunday,On time,Good
+ORD10088,Ananya Joshi,Mangaluru,Noodle Hub,Chinese,2026-10-07,572.0,38.1280276816609,4.0,UPI,10,Wednesday,On time,Good
+ORD10163,Pooja Shetty,Bengaluru,Biryani Bazaar,Biryani,2026-10-02,839.0,38.0,4.0,UPI,10,Friday,On time,Good
+ORD10212,Ishaan Pillai,Chennai,Udupi Tiffins,South Indian,2026-10-17,411.0,30.0,4.0,Cash on Delivery,10,Saturday,On time,Good
+ORD10263,Lakshmi Reddy,Mysuru,Wrap Lane,Fast Food,2026-10-01,168.0,15.0,4.0,Cash on Delivery,10,Thursday,On time,Good
+ORD10252,Lakshmi Nair,Mangaluru,Dum House,Biryani,2026-10-02,923.0,28.0,4.0,Cash on Delivery,10,Friday,On time,Good
+ORD10261,Meera Reddy,Bengaluru,Dum House,Biryani,2026-10-04,816.0,52.0,3.0,UPI,10,Sunday,Late,Average
+ORD10277,Suresh Iyer,Bengaluru,Udupi Tiffins,South Indian,2026-10-15,200.0,58.0,4.0,UPI,10,Thursday,Late,Good
+ORD10118,Karthik Sharma,Hyderabad,Burger Barn,Fast Food,2026-10-25,483.0,34.0,5.0,UPI,10,Sunday,On time,Excellent
+ORD10209,Vivaan Menon,Hubballi,Punjabi Tadka,North Indian,2026-10-04,564.0,26.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10178,Rahul Bhat,Hyderabad,Wok Street,Chinese,2026-10-08,625.0,33.0,4.043321299638989,Cash on Delivery,10,Thursday,On time,Good
+ORD10065,Ishaan Hegde,Bengaluru,Dosa Junction,South Indian,2026-10-21,359.0,36.0,4.0,UPI,10,Wednesday,On time,Good
+ORD10011,Neha Hegde,Chennai,Dhaba Express,North Indian,2026-10-01,781.0,38.1280276816609,4.0,UPI,10,Thursday,On time,Good
+ORD10294,Meera Menon,Chennai,Biryani Bazaar,Biryani,2026-10-24,896.0,33.0,4.0,UPI,10,Saturday,On time,Good
+ORD10255,Karthik Pillai,Bengaluru,Filter Kaapi House,South Indian,2026-10-23,186.0,49.0,4.0,UPI,10,Friday,Late,Good
+ORD10248,Aditya Rao,Bengaluru,Nawabi Handi,Biryani,2026-10-21,760.0,57.0,4.0,UPI,10,Wednesday,Late,Good
+ORD10305,Meera Pillai,Chennai,Filter Kaapi House,South Indian,2026-10-01,219.0,45.0,4.0,UPI,10,Thursday,Late,Good
+ORD10289,Aditya Reddy,Mysuru,Pizza Point,Fast Food,2026-10-04,186.0,12.0,5.0,UPI,10,Sunday,On time,Excellent
+ORD10094,Neha Sharma,Bengaluru,Burger Barn,Fast Food,2026-10-06,262.0,54.0,4.0,UPI,10,Tuesday,Late,Good
+ORD10006,Suresh Iyer,Bengaluru,Sweet Tooth,Desserts,2026-10-04,322.0,43.0,4.0,Cash on Delivery,10,Sunday,Late,Good
+ORD10201,Lakshmi Joshi,Chennai,Dragon Bowl,Chinese,2026-10-23,560.0,35.0,4.0,Cash on Delivery,10,Friday,On time,Good
+ORD10101,Aarav Gowda,Hyderabad,Wok Street,Chinese,2026-10-11,638.0,38.1280276816609,5.0,UPI,10,Sunday,On time,Excellent
+ORD10242,Aarav Bhat,Bengaluru,Dosa Junction,South Indian,2026-10-03,130.0,29.0,4.0,UPI,10,Saturday,On time,Good
+ORD10256,Neha Sharma,Chennai,Nawabi Handi,Biryani,2026-10-12,711.0,31.0,4.0,Cash on Delivery,10,Monday,On time,Good
+ORD10059,Karthik Iyer,Bengaluru,Dum House,Biryani,2026-10-06,313.0,46.0,4.0,UPI,10,Tuesday,Late,Good
+ORD10105,Arjun Patil,Chennai,Nawabi Handi,Biryani,2026-10-25,1022.0,33.0,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10125,Diya Nair,Bengaluru,Noodle Hub,Chinese,2026-10-03,572.0,46.0,4.043321299638989,UPI,10,Saturday,Late,Good
+ORD10007,Rohan Shetty,Chennai,Dum House,Biryani,2026-10-23,821.0,20.0,4.0,Card,10,Friday,On time,Good
+ORD10247,Aditya Pillai,Chennai,Dosa Junction,South Indian,2026-10-21,408.0,41.0,5.0,UPI,10,Wednesday,Late,Excellent
+ORD10241,Neha Shetty,Mysuru,Nawabi Handi,Biryani,2026-10-23,428.0,36.0,4.0,UPI,10,Friday,On time,Good
+ORD10196,Rohan Joshi,Chennai,Nawabi Handi,Biryani,2026-10-18,358.0,57.0,4.0,Cash on Delivery,10,Sunday,Late,Good
+ORD10150,Meera Iyer,Mangaluru,Nawabi Handi,Biryani,2026-10-17,924.0,38.0,4.0,UPI,10,Saturday,On time,Good
+ORD10164,Aditya Naik,Hubballi,Burger Barn,Fast Food,2026-10-22,316.0,29.0,5.0,UPI,10,Thursday,On time,Excellent
+ORD10168,Arjun Reddy,Mysuru,Dhaba Express,North Indian,2026-10-20,662.0,30.0,4.0,Card,10,Tuesday,On time,Good
+ORD10239,Vivaan Gowda,Mysuru,Dosa Junction,South Indian,2026-10-24,257.0,29.0,4.0,UPI,10,Saturday,On time,Good
+ORD10075,Rohan Gowda,Hubballi,Royal Rasoi,North Indian,2026-10-20,557.0,38.1280276816609,4.0,UPI,10,Tuesday,On time,Good
+ORD10259,Ishaan Iyer,Mysuru,Filter Kaapi House,South Indian,2026-10-21,151.0,37.0,5.0,UPI,10,Wednesday,On time,Excellent
+ORD10191,Vivaan Menon,Mysuru,Dhaba Express,North Indian,2026-10-15,265.0,38.1280276816609,5.0,UPI,10,Thursday,On time,Excellent
+ORD10210,Divya Pillai,Mysuru,Dosa Junction,South Indian,2026-10-16,170.0,31.0,5.0,Card,10,Friday,On time,Excellent
+ORD10112,Rohan Hegde,Bengaluru,Filter Kaapi House,South Indian,2026-10-23,350.0,48.0,4.0,Cash on Delivery,10,Friday,Late,Good
+ORD10310,Diya Iyer,Hyderabad,Udupi Tiffins,South Indian,2026-10-25,262.0,46.0,5.0,UPI,10,Sunday,Late,Excellent
+ORD10107,Nikhil Reddy,Bengaluru,Noodle Hub,Chinese,2026-10-16,643.0,49.0,4.0,Card,10,Friday,Late,Good
+ORD10149,Aarav Bhat,Bengaluru,Filter Kaapi House,South Indian,2026-10-04,130.0,48.0,4.0,Card,10,Sunday,Late,Good
+ORD10260,Diya Menon,Chennai,Dosa Junction,South Indian,2026-10-11,352.0,39.0,4.043321299638989,Cash on Delivery,10,Sunday,On time,Good
+ORD10214,Aditya Naik,Chennai,Royal Rasoi,North Indian,2026-10-10,558.0,41.0,4.0,Cash on Delivery,10,Saturday,Late,Good
+ORD10279,Pooja Reddy,Bengaluru,Punjabi Tadka,North Indian,2026-10-01,631.0,52.0,2.0,UPI,10,Thursday,Late,Poor
+ORD10253,Aditya Nair,Bengaluru,Pizza Point,Fast Food,2026-10-20,190.0,53.0,3.0,Cash on Delivery,10,Tuesday,Late,Average
+ORD10066,Pooja Menon,Chennai,Filter Kaapi House,South Indian,2026-10-25,391.0,31.0,4.043321299638989,Card,10,Sunday,On time,Good
+ORD10186,Suresh Shetty,Chennai,Sweet Tooth,Desserts,2026-10-21,406.0,28.0,3.0,UPI,10,Wednesday,On time,Average
+ORD10142,Meera Rao,Bengaluru,Wok Street,Chinese,2026-10-09,402.0,41.0,2.0,UPI,10,Friday,Late,Poor
+ORD10133,Divya Iyer,Hubballi,Dragon Bowl,Chinese,2026-10-16,317.0,31.0,5.0,Cash on Delivery,10,Friday,On time,Excellent
+ORD10119,Suresh Pillai,Hyderabad,Dhaba Express,North Indian,2026-10-12,698.0,38.0,4.0,Cash on Delivery,10,Monday,On time,Good
+ORD10245,Rohan Hegde,Mysuru,Dum House,Biryani,2026-10-20,486.0,41.0,4.043321299638989,Card,10,Tuesday,Late,Good
+ORD10120,Aditya Reddy,Bengaluru,Dosa Junction,South Indian,2026-10-06,202.0,39.0,5.0,Card,10,Tuesday,On time,Excellent
+ORD10265,Neha Bhat,Chennai,Dum House,Biryani,2026-10-01,936.0,36.0,5.0,UPI,10,Thursday,On time,Excellent
+ORD10039,Pooja Bhat,Hyderabad,Wrap Lane,Fast Food,2026-10-10,392.0,36.0,5.0,Cash on Delivery,10,Saturday,On time,Excellent
+ORD10085,Lakshmi Patil,Mysuru,Dosa Junction,South Indian,2026-10-03,377.0,31.0,4.043321299638989,Cash on Delivery,10,Saturday,On time,Good
+ORD10225,Rohan Patil,Chennai,Burger Barn,Fast Food,2026-10-25,392.0,32.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10020,Aarav Shetty,Bengaluru,Biryani Bazaar,Biryani,2026-10-16,592.0,44.0,4.0,Cash on Delivery,10,Friday,Late,Good
+ORD10073,Aditya Pillai,Bengaluru,Punjabi Tadka,North Indian,2026-10-04,468.0,49.0,3.0,Card,10,Sunday,Late,Average
+ORD10076,Ishaan Reddy,Bengaluru,Punjabi Tadka,North Indian,2026-10-22,341.0,43.0,4.0,UPI,10,Thursday,Late,Good
+ORD10041,Meera Pillai,Chennai,Noodle Hub,Chinese,2026-10-20,394.0,51.0,5.0,Card,10,Tuesday,Late,Excellent
+ORD10111,Anjali Pillai,Bengaluru,Filter Kaapi House,South Indian,2026-10-15,335.0,46.0,4.0,Card,10,Thursday,Late,Good
+ORD10300,Anjali Iyer,Chennai,Noodle Hub,Chinese,2026-10-11,469.0,44.0,4.0,Card,10,Sunday,Late,Good
+ORD10049,Nikhil Shetty,Mysuru,Dum House,Biryani,2026-10-08,1041.0,21.0,4.0,UPI,10,Thursday,On time,Good
+ORD10019,Neha Reddy,Mangaluru,Punjabi Tadka,North Indian,2026-10-06,712.0,25.0,5.0,UPI,10,Tuesday,On time,Excellent
+ORD10044,Rohan Nair,Bengaluru,Punjabi Tadka,North Indian,2026-10-09,631.0,38.0,3.0,Card,10,Friday,On time,Average
+ORD10274,Kavya Kulkarni,Hubballi,Wrap Lane,Fast Food,2026-10-09,268.0,25.0,5.0,UPI,10,Friday,On time,Excellent
+ORD10091,Meera Kulkarni,Mangaluru,Wok Street,Chinese,2026-10-14,397.0,38.1280276816609,4.0,Cash on Delivery,10,Wednesday,On time,Good
+ORD10276,Neha Iyer,Hubballi,Royal Rasoi,North Indian,2026-10-07,256.0,21.0,5.0,UPI,10,Wednesday,On time,Excellent
+ORD10161,Arjun Rao,Bengaluru,Royal Rasoi,North Indian,2026-10-11,547.0,62.0,3.0,Cash on Delivery,10,Sunday,Late,Average
+ORD10115,Ishaan Sharma,Bengaluru,Udupi Tiffins,South Indian,2026-10-09,155.0,49.0,4.0,UPI,10,Friday,Late,Good
+ORD10069,Diya Sharma,Mangaluru,Pizza Point,Fast Food,2026-10-12,171.0,24.0,4.043321299638989,UPI,10,Monday,On time,Good
+ORD10216,Kavya Rao,Hyderabad,Dum House,Biryani,2026-10-04,926.0,33.0,5.0,Card,10,Sunday,On time,Excellent
+ORD10002,Aarav Gowda,Hubballi,Udupi Tiffins,South Indian,2026-10-14,221.0,35.0,3.0,UPI,10,Wednesday,On time,Average
+ORD10188,Lakshmi Nair,Chennai,Udupi Tiffins,South Indian,2026-10-05,374.0,32.0,4.0,UPI,10,Monday,On time,Good
+ORD10179,Vivaan Rao,Bengaluru,Dragon Bowl,Chinese,2026-10-08,425.0,20.0,4.0,UPI,10,Thursday,On time,Good
+ORD10182,Meera Joshi,Chennai,Wok Street,Chinese,2026-10-17,602.0,47.0,3.0,Cash on Delivery,10,Saturday,Late,Average
+ORD10134,Anjali Naik,Bengaluru,Dum House,Biryani,2026-10-10,996.0,20.0,5.0,UPI,10,Saturday,On time,Excellent
+ORD10224,Rohan Sharma,Bengaluru,Dosa Junction,South Indian,2026-10-14,263.0,56.0,4.0,Cash on Delivery,10,Wednesday,Late,Good
+ORD10249,Divya Naik,Hubballi,Dosa Junction,South Indian,2026-10-03,136.0,19.0,4.0,UPI,10,Saturday,On time,Good
+ORD10284,Anjali Joshi,Hubballi,Nawabi Handi,Biryani,2026-10-18,673.0,38.0,4.0,Cash on Delivery,10,Sunday,On time,Good
+ORD10169,Pooja Reddy,Hyderabad,Dum House,Biryani,2026-10-18,836.0,46.0,3.0,UPI,10,Sunday,Late,Average
+ORD10264,Neha Pillai,Chennai,Sweet Tooth,Desserts,2026-10-18,333.0,35.0,4.043321299638989,Card,10,Sunday,On time,Good
+ORD10143,Aditya Pillai,Mysuru,Noodle Hub,Chinese,2026-10-04,558.0,29.0,4.0,UPI,10,Sunday,On time,Good
+ORD10246,Karthik Bhat,Chennai,Wok Street,Chinese,2026-10-12,614.0,43.0,5.0,Card,10,Monday,Late,Excellent
+ORD10028,Vivaan Nair,Hyderabad,Wok Street,Chinese,2026-10-13,505.0,28.0,3.0,UPI,10,Tuesday,On time,Average
+ORD10090,Rahul Patil,Bengaluru,Dhaba Express,North Indian,2026-10-18,891.0,39.0,4.043321299638989,Card,10,Sunday,On time,Good
+ORD10024,Anjali Rao,Mysuru,Udupi Tiffins,South Indian,2026-10-04,239.0,25.0,4.043321299638989,Card,10,Sunday,On time,Good
+ORD10097,Meera Patil,Bengaluru,Burger Barn,Fast Food,2026-10-03,395.0,53.0,3.0,Card,10,Saturday,Late,Average
+ORD10080,Ananya Joshi,Bengaluru,Royal Rasoi,North Indian,2026-10-05,765.0,59.0,3.0,UPI,10,Monday,Late,Average
+ORD10193,Meera Rao,Bengaluru,Biryani Bazaar,Biryani,2026-10-23,852.0,48.0,3.0,Card,10,Friday,Late,Average
+ORD10243,Vivaan Reddy,Hyderabad,Noodle Hub,Chinese,2026-10-19,389.0,44.0,3.0,UPI,10,Monday,Late,Average
+ORD10068,Diya Reddy,Chennai,Cake Studio,Desserts,2026-10-19,338.0,42.0,4.0,Card,10,Monday,Late,Good
+ORD10146,Divya Pillai,Bengaluru,Noodle Hub,Chinese,2026-10-15,280.0,42.0,4.0,Card,10,Thursday,Late,Good
+ORD10232,Kavya Rao,Mangaluru,Wrap Lane,Fast Food,2026-10-09,158.0,33.0,4.043321299638989,UPI,10,Friday,On time,Good
+ORD10141,Karthik Reddy,Bengaluru,Nawabi Handi,Biryani,2026-10-13,1037.0,46.0,5.0,UPI,10,Tuesday,Late,Excellent
+ORD10035,Pooja Rao,Hyderabad,Nawabi Handi,Biryani,2026-10-14,733.0,44.0,4.0,UPI,10,Wednesday,Late,Good
+ORD10126,Sneha Shetty,Mangaluru,Wok Street,Chinese,2026-10-18,442.0,37.0,4.0,UPI,10,Sunday,On time,Good
+ORD10237,Divya Pillai,Chennai,Dum House,Biryani,2026-10-18,1062.0,36.0,4.0,UPI,10,Sunday,On time,Good
+ORD10302,Anjali Shetty,Chennai,Nawabi Handi,Biryani,2026-10-14,605.0,31.0,4.043321299638989,Cash on Delivery,10,Wednesday,On time,Good
+ORD10254,Ishaan Kulkarni,Hyderabad,Dragon Bowl,Chinese,2026-10-05,461.0,38.1280276816609,3.0,UPI,10,Monday,On time,Average
+ORD10177,Kavya Joshi,Mangaluru,Dhaba Express,North Indian,2026-10-05,585.0,36.0,4.043321299638989,UPI,10,Monday,On time,Good
+ORD10093,Lakshmi Hegde,Mysuru,Udupi Tiffins,South Indian,2026-10-19,322.0,29.0,5.0,Card,10,Monday,On time,Excellent
+ORD10110,Rahul Menon,Hyderabad,Pizza Point,Fast Food,2026-10-21,552.0,44.0,5.0,UPI,10,Wednesday,Late,Excellent
+ORD10281,Pooja Nair,Mangaluru,Filter Kaapi House,South Indian,2026-10-19,188.0,38.1280276816609,3.0,UPI,10,Monday,On time,Average
+ORD10072,Ishaan Nair,Mysuru,Royal Rasoi,North Indian,2026-10-12,468.0,28.0,5.0,Card,10,Monday,On time,Excellent
+ORD10162,Arjun Patil,Hubballi,Nawabi Handi,Biryani,2026-10-23,1037.0,31.0,5.0,Card,10,Friday,On time,Excellent
+ORD10270,Rohan Menon,Bengaluru,Punjabi Tadka,North Indian,2026-10-14,349.0,33.0,4.0,Card,10,Wednesday,On time,Good
+ORD10092,Vivaan Shetty,Bengaluru,Nawabi Handi,Biryani,2026-10-05,979.0,46.0,4.0,Cash on Delivery,10,Monday,Late,Good
+ORD10081,Karthik Bhat,Mangaluru,Royal Rasoi,North Indian,2026-10-06,454.0,26.0,4.0,UPI,10,Tuesday,On time,Good
+ORD10192,Sneha Naik,Hubballi,Nawabi Handi,Biryani,2026-10-20,336.0,48.0,4.043321299638989,Card,10,Tuesday,Late,Good

@@ -1,0 +1,331 @@
+Order_ID,Customer_Name,City,Restaurant,Cuisine,Order_Date,Order_Value,Delivery_Time_Min,Rating,Payment_Mode,Internal_Ref
+ORD10124,Neha Sharma, Chennai,Dum House,Biryani,2026-10-18,688.0,,4.0,Card,REF518129
+ORD10296,divya hegde,hyderabad  ,Filter Kaapi House,South Indian,2026-10-02,267.0,35.0,4.0,Card,REF343052
+ORD10230,Pooja Iyer  ,Hyderabad,Biryani Bazaar,Biryani,2026-10-12,507.0,36.0,,Card,REF339360
+ORD10158,anjali nair,Bangalore ,Dosa Junction,South Indian,2026-10-09,125.0,55.0,4.0,Cash,REF780029
+ORD10172,  Divya Shetty, Bengaluru,Cake Studio,Desserts,2026-10-12,230.0,42.0,3.0,Credit Card,REF923764
+ORD10140,Nikhil Bhat  , hyderabad,Nawabi Handi,Biryani,2026-10-23,874.0,31.0,,Upi,REF201237
+ORD10219,Divya Patil,  mangalore,Royal Rasoi,North Indian,2026-10-04,575.0,35.0,4.0,cod,REF890348
+ORD10227,ishaan kulkarni,Bengaluru,Dum House,Biryani,2026-10-03,947.0,51.0,4.0,Upi,REF411019
+ORD10207,Rahul Gowda,Bengaluru,Nawabi Handi,Biryani,2026-10-07,831.0,47.0,3.0,Upi,REF121847
+ORD10015,  Ananya Nair,Mysuru,Biryani Bazaar,Biryani,2026-10-13,587.0,35.0,4.0,Cash on Delivery,REF478200
+ORD10220,DIVYA JOSHI,Bengaluru ,Dragon Bowl,Chinese,2026-10-15,315.0,30.0,3.0,card,REF568239
+ORD10099, Meera Shetty,Hyderabad,Nawabi Handi,Biryani,2026-10-15,992.0,50.0,2.0,Debit Card,REF978552
+ORD10290,Sneha Shetty, Chennai  ,Wok Street,Chinese,2026-10-08,252.0,37.0,4.0,Card,REF230522
+ORD10283,Arjun Joshi,Mangaluru,Wok Street,Chinese,2026-10-20,229.0,38.0,4.0,Upi,REF456723
+ORD10137,Meera Gowda,Hubballi,Filter Kaapi House,South Indian,2026-10-03,405.0,31.0,5.0,UPI,REF473086
+ORD10154,AARAV IYER,hyderabad  ,Filter Kaapi House,South Indian,2026-10-16,152.0,,4.0,Card,REF591388
+ORD10165,Rahul Rao ,Bengaluru,Udupi Tiffins,South Indian,2026-10-19,147.0,53.0,3.0,upi,REF525924
+ORD10082,nikhil iyer,Mangaluru,Royal Rasoi,North Indian,2026-10-05,861.0,30.0,5.0,Credit Card,REF954232
+ORD10295,lakshmi menon,Mysuru,Dragon Bowl,Chinese,2026-10-19,224.0,,5.0,COD,REF285532
+ORD10054,rohan pillai,hubballi,Dhaba Express,North Indian,2026-10-01,559.0,,4.0,card,REF326846
+ORD10266,Aditya Pillai  ,Bangalore,Biryani Bazaar,Biryani,2026-10-17,649.0,44.0,4.0,Cash on Delivery,REF858879
+ORD10067,Ananya Gowda,Hubballi  ,Biryani Bazaar,Biryani,2026-10-01,447.0,29.0,3.0,upi,REF165422
+ORD10183,anjali menon,bengaluru,Punjabi Tadka,North Indian,2026-10-15,294.0,43.0,4.0,UPI,REF276941
+ORD10021,aditya bhat,Bengaluru ,Nawabi Handi,Biryani,2026-10-23,485.0,50.0,,cod,REF982968
+ORD10017,Aditya Shetty,CHENNAI,Dosa Junction,South Indian,2026-10-11,132.0,37.0,3.0,UPI,REF711749
+ORD10061,Lakshmi Rao,bangalore,Filter Kaapi House,South Indian,2026-10-12,281.0,41.0,4.0,cod,REF816093
+ORD10303,lakshmi naik,Mysore,Dragon Bowl,Chinese,2026-10-07,256.0,39.0,,UPI,REF478910
+ORD10292,Kavya Joshi,Hyderabad,Nawabi Handi,Biryani,2026-10-20,,45.0,,UPI,REF268725
+ORD10291, Karthik Kulkarni  ,CHENNAI,Royal Rasoi,North Indian,2026-10-10,716.0,27.0,5.0,cod,REF221613
+ORD10151,RAHUL SHARMA,Mangalore,Filter Kaapi House,South Indian,2026-10-06,382.0,,5.0,Upi,REF162374
+ORD10084,SNEHA GOWDA,Mysuru ,Biryani Bazaar,Biryani,2026-10-01,437.0,23.0,5.0,cod,REF427180
+ORD10303,lakshmi naik,Mysore,Dragon Bowl,Chinese,2026-10-07,256.0,39.0,,UPI,REF478910
+ORD10013,  Meera Bhat  ,Hyderabad ,Cake Studio,Desserts,2026-10-21,204.0,43.0,4.0,CARD,REF523257
+ORD10061,Lakshmi Rao,bangalore,Filter Kaapi House,South Indian,2026-10-12,281.0,41.0,4.0,cod,REF816093
+ORD10297,Lakshmi Menon,Bengaluru,Filter Kaapi House,South Indian,2026-10-19,323.0,44.0,4.0,Credit Card,REF593233
+ORD10113,Suresh Patil,BENGALURU,Wok Street,Chinese,2026-10-09,379.0,48.0,3.0,Upi,REF424204
+ORD10293,Arjun Reddy ,MANGALORE,Sweet Tooth,Desserts,2026-10-13,154.0,46.0,4.0,COD,REF605926
+ORD10273,Pooja Menon  ,Bengaluru,Biryani Bazaar,Biryani,2026-10-14,334.0,48.0,3.0,upi,REF416441
+ORD10218,Neha Rao,Hyderabad,Sweet Tooth,Desserts,2026-10-18,290.0,37.0,3.0,Upi,REF164214
+ORD10029,Aditya Joshi,Chennai,Wok Street,Chinese,2026-10-13,641.0,33.0,5.0,UPI,REF307125
+ORD10117,Aditya Hegde,Mysore,Biryani Bazaar,Biryani,2026-10-24,351.0,44.0,5.0,upi,REF991623
+ORD10244,Meera Sharma,Hyderabad,Udupi Tiffins,South Indian,2026-10-22,274.0,31.0,4.0,Card,REF410985
+ORD10050,Nikhil Pillai,  Bengaluru ,Dhaba Express,North Indian,2026-10-15,583.0,30.0,4.0,Upi,REF513478
+ORD10234,neha menon,MYSURU,Ice Cream Lab,Desserts,2026-10-16,377.0,33.0,4.0,Cash on Delivery,REF199814
+ORD10308,  Kavya Gowda,hyderabad ,Biryani Bazaar,Biryani,2026-10-17,1077.0,31.0,5.0,Card,REF923157
+ORD10298,Karthik Hegde,Chennai,Royal Rasoi,North Indian,2026-10-02,,39.0,5.0,CARD,REF844497
+ORD10280, aditya rao,Mysuru,Nawabi Handi,Biryani,2026-10-17,1005.0,30.0,4.0,Cash on Delivery,REF785875
+ORD10198, divya menon, Hubli,Dhaba Express,North Indian,2026-10-14,317.0,12.0,5.0,cod,REF921405
+ORD10236,Rahul Hegde  ,  Bengaluru,Dragon Bowl,Chinese,2026-10-12,445.0,56.0,3.0,UPI,REF221235
+ORD10062,Suresh Naik,Chennai ,Biryani Bazaar,Biryani,2026-10-15,932.0,40.0,5.0,Cash,REF435849
+ORD10089,Pooja Rao,Bangalore,Wok Street,Chinese,2026-10-07,438.0,54.0,4.0,Card,REF886361
+ORD10160,Rohan Naik,Chennai ,Punjabi Tadka,North Indian,2026-10-08,356.0,42.0,4.0,card,REF845810
+ORD10176,  Arjun Gowda  ,  Bengaluru  ,Wok Street,Chinese,2026-10-22,666.0,58.0,4.0,COD,REF958732
+ORD10022,Arjun Iyer,Hyderabad,Nawabi Handi,Biryani,2026-10-11,303.0,46.0,4.0,UPI,REF366380
+ORD10053,  Nikhil Sharma,chennai,Dhaba Express,North Indian,2026-10-18,425.0,34.0,4.0,COD,REF423242
+ORD10130,Diya Reddy,  MYSURU  ,Dosa Junction,South Indian,2026-10-02,,32.0,3.0,CARD,REF836226
+ORD10012,  Rahul Nair,Bengaluru,Filter Kaapi House,South Indian,2026-10-11,225.0,40.0,4.0,UPI,REF529434
+ORD10204, Pooja Patil,BENGALURU,Dum House,Biryani,2026-10-19,339.0,47.0,3.0,UPI,REF509987
+ORD10040,Karthik Sharma ,Mangaluru,Wrap Lane,Fast Food,2026-10-14,482.0,32.0,4.0,UPI,REF430499
+ORD10086,Vivaan Patil,  Bengaluru  ,Filter Kaapi House,South Indian,2026-10-09,322.0,44.0,4.0,Upi,REF900671
+ORD10189,SNEHA IYER,Chennai,Nawabi Handi,Biryani,2026-10-12,686.0,41.0,4.0,Debit Card,REF277980
+ORD10071,  aditya sharma,BENGALURU,Udupi Tiffins,South Indian,2026-10-20,,29.0,,UPI,REF203577
+ORD10042,Suresh Hegde,BANGALORE,Filter Kaapi House,South Indian,2026-10-05,,41.0,4.0,Cash on Delivery,REF354258
+ORD10135,  Kavya Reddy,BENGALURU ,Biryani Bazaar,Biryani,2026-10-09,958.0,61.0,,UPI,REF183483
+ORD10083,Kavya Hegde,CHENNAI ,Dosa Junction,South Indian,2026-10-02,315.0,40.0,4.0,Upi,REF444950
+ORD10170,aditya iyer,Hyderabad,Biryani Bazaar,Biryani,2026-10-05,599.0,48.0,4.0,upi,REF407293
+ORD10268,Ishaan Gowda  ,chennai  ,Royal Rasoi,North Indian,2026-10-02,891.0,33.0,5.0,COD,REF162085
+ORD10251,pooja iyer,Hubli  ,Biryani Bazaar,Biryani,2026-10-11,718.0,17.0,5.0,UPI,REF408689
+ORD10009,Rahul Patil,Bangalore  ,Biryani Bazaar,Biryani,2026-10-16,476.0,,,card,REF914611
+ORD10250,Aarav Menon,Hubballi ,Cake Studio,Desserts,2026-10-09,282.0,40.0,3.0,UPI,REF350761
+ORD10003,DIYA SHARMA,  Chennai,Dragon Bowl,Chinese,2026-10-21,287.0,39.0,3.0,Upi,REF487586
+ORD10206,  Ishaan Joshi,Hyderabad,Dragon Bowl,Chinese,2026-10-16,412.0,46.0,5.0,UPI,REF368091
+ORD10187,Meera Hegde,Mysuru,Sweet Tooth,Desserts,2026-10-11,131.0,36.0,,Cash,REF987152
+ORD10272,Vivaan Bhat,  Bengaluru,Wok Street,Chinese,2026-10-03,585.0,37.0,4.0,UPI,REF711929
+ORD10175,Meera Patil,  Mysuru,Udupi Tiffins,South Indian,2026-10-18,296.0,28.0,5.0,CARD,REF591721
+ORD10104,meera iyer ,Hyderabad,Dragon Bowl,Chinese,2026-10-06,277.0,39.0,5.0,cod,REF382120
+ORD10026,KAVYA SHARMA,Mysuru,Dum House,Biryani,2026-10-06,526.0,29.0,4.0,Credit Card,REF111058
+ORD10103,ishaan bhat, Bengaluru,Udupi Tiffins,South Indian,2026-10-17,216.0,35.0,5.0,UPI,REF815800
+ORD10102, suresh nair  ,  Hubballi ,Royal Rasoi,North Indian,2026-10-19,447.0,38.0,5.0,CARD,REF330386
+ORD10287, Rahul Rao,  Hyderabad ,Punjabi Tadka,North Indian,2026-10-08,663.0,21.0,,Upi,REF695714
+ORD10160,Rohan Naik,Chennai ,Punjabi Tadka,North Indian,2026-10-08,356.0,42.0,4.0,card,REF845810
+ORD10032,Divya Nair,  Bengaluru ,Dum House,Biryani,2026-10-07,1021.0,58.0,4.0,COD,REF726281
+ORD10262,rahul sharma,Bengaluru ,Dhaba Express,North Indian,2026-10-05,692.0,44.0,4.0,COD,REF106830
+ORD10023,Nikhil Sharma,Bengaluru,Burger Barn,Fast Food,2026-10-22,538.0,38.0,4.0,Debit Card,REF274235
+ORD10063,Sneha Bhat,mangaluru,Filter Kaapi House,South Indian,2026-10-15,134.0,,5.0,Card,REF984586
+ORD10271, ROHAN REDDY,Bangalore ,Dhaba Express,North Indian,2026-10-15,486.0,49.0,3.0,UPI,REF257110
+ORD10070,Meera Bhat,Mangaluru,Nawabi Handi,Biryani,2026-10-23,404.0,24.0,4.0,Card,REF579063
+ORD10217,nikhil menon  ,Hubli,Udupi Tiffins,South Indian,2026-10-05,367.0,26.0,4.0,Debit Card,REF493271
+ORD10235,KARTHIK BHAT ,Bengaluru,Punjabi Tadka,North Indian,2026-10-25,283.0,54.0,3.0,Debit Card,REF778942
+ORD10055,AARAV PATIL,Mysuru,Udupi Tiffins,South Indian,2026-10-22,229.0,25.0,5.0,upi,REF335296
+ORD10306,  Vivaan Kulkarni,Hyderabad,Nawabi Handi,Biryani,2026-10-18,544.0,34.0,,UPI,REF274922
+ORD10078,Aditya Reddy,Mangaluru  ,Dosa Junction,South Indian,2026-10-23,263.0,22.0,4.0,upi,REF841575
+ORD10215, Aditya Rao,Chennai  ,Burger Barn,Fast Food,2026-10-07,360.0,47.0,3.0,upi,REF687547
+ORD10228,NIKHIL KULKARNI,Mysore,Dhaba Express,North Indian,2026-10-04,676.0,,4.0,COD,REF655335
+ORD10156,Arjun Reddy  ,Hyderabad,Dum House,Biryani,2026-10-19,402.0,40.0,4.0,cod,REF870768
+ORD10030,suresh gowda,Hubballi ,Sweet Tooth,Desserts,2026-10-12,193.0,39.0,5.0,UPI,REF407637
+ORD10045,MEERA BHAT,hyderabad,Dragon Bowl,Chinese,2026-10-19,289.0,40.0,5.0,upi,REF585088
+ORD10138,Aditya Reddy ,Bengaluru,Wok Street,Chinese,2026-10-21,419.0,55.0,3.0,UPI,REF405781
+ORD10304,Aditya Sharma,Bengaluru,Punjabi Tadka,North Indian,2026-10-01,307.0,36.0,4.0,Card,REF725046
+ORD10131,  Karthik Kulkarni,chennai ,Udupi Tiffins,South Indian,2026-10-25,241.0,38.0,4.0,UPI,REF309960
+ORD10114,  Divya Reddy,Hyderabad,Royal Rasoi,North Indian,2026-10-11,385.0,27.0,4.0,cod,REF431546
+ORD10309,ROHAN NAIR ,Mangaluru,Noodle Hub,Chinese,2026-10-02,493.0,45.0,4.0,UPI,REF530772
+ORD10096,Neha Menon,  Mysore,Dragon Bowl,Chinese,2026-10-04,545.0,32.0,5.0,Upi,REF203260
+ORD10087,Karthik Pillai,Bangalore,Dosa Junction,South Indian,2026-10-05,227.0,44.0,4.0,Cash,REF671574
+ORD10286,  Neha Menon,Bengaluru,Udupi Tiffins,South Indian,2026-10-13,413.0,47.0,4.0,upi,REF203401
+ORD10100, ananya patil,chennai,Nawabi Handi,Biryani,2026-10-02,363.0,37.0,4.0,UPI,REF342517
+ORD10240, Meera Nair ,Mangaluru ,Filter Kaapi House,South Indian,2026-10-13,235.0,22.0,3.0,UPI,REF528284
+ORD10238,  Meera Nair,Mysuru,Punjabi Tadka,North Indian,2026-10-07,369.0,36.0,,cod,REF419786
+ORD10004,Nikhil Gowda,Bangalore,Nawabi Handi,Biryani,2026-10-15,395.0,49.0,4.0,Cash on Delivery,REF983750
+ORD10056,Nikhil Shetty,  bengaluru,Wok Street,Chinese,2026-10-03,620.0,39.0,5.0,CARD,REF615412
+ORD10184,Rahul Sharma  ,Bengaluru,Dum House,Biryani,2026-10-20,483.0,47.0,4.0,UPI,REF103449
+ORD10307,ishaan nair,BENGALURU,Nawabi Handi,Biryani,2026-10-17,827.0,45.0,4.0,card,REF703316
+ORD10231,Diya Bhat,Bangalore,Wok Street,Chinese,2026-10-05,654.0,44.0,4.0,Debit Card,REF184675
+ORD10027, Ishaan Sharma,Bengaluru,Cake Studio,Desserts,2026-10-04,270.0,54.0,4.0,Debit Card,REF320388
+ORD10136,SNEHA IYER,Hubballi,Biryani Bazaar,Biryani,2026-10-24,680.0,30.0,,COD,REF939459
+ORD10200,Meera Joshi,  Mysore,Dosa Junction,South Indian,2026-10-25,249.0,35.0,5.0,CARD,REF661700
+ORD10185, Meera Hegde,  Mangaluru,Biryani Bazaar,Biryani,2026-10-01,308.0,21.0,4.0,CARD,REF626845
+ORD10038, Aarav Patil,Chennai,Dragon Bowl,Chinese,2026-10-19,650.0,22.0,4.0,cod,REF491625
+ORD10052,  Rohan Menon,mysuru,Dhaba Express,North Indian,2026-10-25,653.0,12.0,5.0,CARD,REF759908
+ORD10037,ARJUN SHARMA,Hubballi,Dosa Junction,South Indian,2026-10-02,358.0,42.0,4.0,Cash,REF639799
+ORD10098,Aarav Gowda , Chennai,Nawabi Handi,Biryani,2026-10-21,686.0,37.0,4.0,upi,REF365202
+ORD10285,sneha naik,Bengaluru,Burger Barn,Fast Food,2026-10-17,541.0,36.0,4.0,COD,REF411998
+ORD10014,  Nikhil Naik,BENGALURU,Dhaba Express,North Indian,2026-10-09,849.0,40.0,3.0,Card,REF611660
+ORD10145,rahul rao,Mangaluru,Dosa Junction,South Indian,2026-10-06,317.0,19.0,5.0,upi,REF746253
+ORD10233,  arjun patil,Mangaluru,Dosa Junction,South Indian,2026-10-24,262.0,41.0,4.0,cod,REF354199
+ORD10147,Kavya Bhat,Hyderabad,Nawabi Handi,Biryani,2026-10-17,1072.0,29.0,5.0,UPI,REF294587
+ORD10106,Pooja Iyer,Bangalore ,Filter Kaapi House,South Indian,2026-10-02,396.0,34.0,4.0,Upi,REF378984
+ORD10213,Ishaan Reddy,chennai  ,Pizza Point,Fast Food,2026-10-05,162.0,40.0,4.0,cod,REF974631
+ORD10155,Aarav Pillai,hubballi,Dosa Junction,South Indian,2026-10-23,248.0,37.0,5.0,Card,REF368100
+ORD10010,ANJALI HEGDE,Hyderabad,Dum House,Biryani,2026-10-10,816.0,45.0,4.0,upi,REF445268
+ORD10129,Arjun Nair,  Mysuru,Dosa Junction,South Indian,2026-10-04,,20.0,4.0,Debit Card,REF383140
+ORD10229,ISHAAN PATIL,Hyderabad,Noodle Hub,Chinese,2026-10-13,462.0,18.0,4.0,card,REF918227
+ORD10046,diya kulkarni,Chennai,Noodle Hub,Chinese,2026-10-22,397.0,33.0,4.0,card,REF266955
+ORD10116,Karthik Patil,HUBLI,Ice Cream Lab,Desserts,2026-10-09,381.0,23.0,4.0,Cash,REF462071
+ORD10269, Arjun Hegde,CHENNAI,Udupi Tiffins,South Indian,2026-10-15,400.0,39.0,3.0,Cash,REF172708
+ORD10025,Diya Sharma,Mangalore,Dum House,Biryani,2026-10-17,1019.0,33.0,4.0,CARD,REF319507
+ORD10166,Karthik Iyer,Bengaluru  ,Wrap Lane,Fast Food,2026-10-16,556.0,46.0,3.0,UPI,REF870682
+ORD10144,  Suresh Reddy ,Hyderabad,Filter Kaapi House,South Indian,2026-10-05,345.0,47.0,4.0,UPI,REF844948
+ORD10152,Neha Kulkarni ,chennai,Burger Barn,Fast Food,2026-10-25,472.0,,4.0,Upi,REF769357
+ORD10127,Karthik Hegde,  Hyderabad  ,Wrap Lane,Fast Food,2026-10-21,558.0,30.0,4.0,Upi,REF279852
+ORD10275,Ishaan Sharma,Bengaluru  ,Punjabi Tadka,North Indian,2026-10-17,314.0,43.0,4.0,Credit Card,REF353680
+ORD10174,  Aarav Sharma,Hyderabad,Dum House,Biryani,2026-10-07,1086.0,44.0,4.0,UPI,REF683917
+ORD10278, vivaan hegde,  hyderabad,Pizza Point,Fast Food,2026-10-14,190.0,48.0,3.0,Credit Card,REF362547
+ORD10034,Pooja Hegde,MYSORE ,Wok Street,Chinese,2026-10-18,557.0,,,Cash on Delivery,REF120142
+ORD10202, Vivaan Nair  ,Chennai,Burger Barn,Fast Food,2026-10-22,563.0,47.0,4.0,UPI,REF429860
+ORD10123,Lakshmi Kulkarni,Hyderabad ,Biryani Bazaar,Biryani,2026-10-05,475.0,57.0,3.0,Cash,REF464745
+ORD10064,Arjun Naik,Bengaluru,Burger Barn,Fast Food,2026-10-15,159.0,39.0,5.0,Cash,REF344623
+ORD10067,Ananya Gowda,Hubballi  ,Biryani Bazaar,Biryani,2026-10-01,447.0,29.0,3.0,upi,REF165422
+ORD10197,  Vivaan Naik,Chennai ,Nawabi Handi,Biryani,2026-10-10,1012.0,40.0,5.0,upi,REF822911
+ORD10089,Pooja Rao,Bangalore,Wok Street,Chinese,2026-10-07,438.0,54.0,4.0,Card,REF886361
+ORD10257,  Arjun Patil,HYDERABAD,Cake Studio,Desserts,2026-10-15,446.0,43.0,3.0,Upi,REF502068
+ORD10001,Aditya Iyer,  Bengaluru,Dhaba Express,North Indian,2026-10-18,451.0,44.0,,UPI,REF209615
+ORD10122,Karthik Joshi  ,Mangaluru ,Punjabi Tadka,North Indian,2026-10-11,801.0,21.0,4.0,Debit Card,REF838107
+ORD10109,Ishaan Bhat,hyderabad,Dragon Bowl,Chinese,2026-10-02,340.0,33.0,4.0,UPI,REF524742
+ORD10288, Rohan Hegde, Bengaluru  ,Udupi Tiffins,South Indian,2026-10-03,207.0,49.0,4.0,cod,REF146166
+ORD10005, Karthik Patil,Mysuru,Wok Street,Chinese,2026-10-22,271.0,12.0,5.0,Debit Card,REF305002
+ORD10299,Neha Reddy ,Bengaluru,Filter Kaapi House,South Indian,2026-10-04,389.0,46.0,4.0,CARD,REF250250
+ORD10058,ishaan hegde, MYSURU,Biryani Bazaar,Biryani,2026-10-20,355.0,43.0,5.0,cod,REF794397
+ORD10139, Rahul Sharma,Hyderabad,Udupi Tiffins,South Indian,2026-10-06,354.0,38.0,4.0,UPI,REF317525
+ORD10060,Ananya Joshi  ,Bengaluru,Dragon Bowl,Chinese,2026-10-15,456.0,26.0,5.0,UPI,REF896222
+ORD10301,Arjun Kulkarni  ,  Hyderabad,Punjabi Tadka,North Indian,2026-10-06,537.0,51.0,3.0,UPI,REF594794
+ORD10048,Lakshmi Reddy, Bangalore,Wrap Lane,Fast Food,2026-10-22,500.0,,4.0,UPI,REF941624
+ORD10222,Diya Reddy, Bengaluru,Pizza Point,Fast Food,2026-10-19,496.0,48.0,4.0,Cash,REF420202
+ORD10047, Vivaan Reddy ,  Hyderabad ,Noodle Hub,Chinese,2026-10-09,230.0,34.0,3.0,cod,REF215227
+ORD10181,Divya Shetty ,Mysore,Royal Rasoi,North Indian,2026-10-06,805.0,27.0,,UPI,REF680196
+ORD10121,Diya Kulkarni,  Hyderabad,Pizza Point,Fast Food,2026-10-19,536.0,47.0,3.0,Upi,REF122713
+ORD10031,  Sneha Menon,Bengaluru,Nawabi Handi,Biryani,2026-10-19,914.0,46.0,4.0,Card,REF317579
+ORD10171,  Kavya Naik,Bengaluru,Ice Cream Lab,Desserts,2026-10-03,222.0,32.0,5.0,UPI,REF678273
+ORD10159,Rohan Kulkarni ,Bengaluru,Filter Kaapi House,South Indian,2026-10-01,410.0,55.0,3.0,UPI,REF389582
+ORD10130,Diya Reddy,  MYSURU  ,Dosa Junction,South Indian,2026-10-02,,32.0,3.0,CARD,REF836226
+ORD10167,Karthik Joshi,Chennai,Udupi Tiffins,South Indian,2026-10-05,294.0,27.0,5.0,Cash,REF230735
+ORD10057,Rohan Kulkarni,  CHENNAI,Pizza Point,Fast Food,2026-10-05,590.0,26.0,5.0,card,REF776432
+ORD10226,  Aarav Rao,Mangaluru,Biryani Bazaar,Biryani,2026-10-01,1041.0,53.0,2.0,UPI,REF520406
+ORD10190,Neha Gowda,bengaluru,Royal Rasoi,North Indian,2026-10-08,862.0,25.0,4.0,Upi,REF666530
+ORD10211,Arjun Kulkarni,Bangalore,Burger Barn,Fast Food,2026-10-07,547.0,33.0,4.0,Upi,REF961410
+ORD10103,ishaan bhat, Bengaluru,Udupi Tiffins,South Indian,2026-10-17,216.0,35.0,5.0,UPI,REF815800
+ORD10128,Ishaan Nair,Hyderabad,Ice Cream Lab,Desserts,2026-10-25,380.0,24.0,4.0,UPI,REF845697
+ORD10205,Rahul Gowda,  Bengaluru  ,Nawabi Handi,Biryani,2026-10-18,608.0,48.0,3.0,Cash on Delivery,REF420369
+ORD10194,Arjun Rao,  Bengaluru  ,Dhaba Express,North Indian,2026-10-12,575.0,50.0,4.0,Credit Card,REF465111
+ORD10043,  Pooja Naik,Chennai,Pizza Point,Fast Food,2026-10-07,316.0,25.0,5.0,UPI,REF840763
+ORD10282,Lakshmi Sharma ,CHENNAI,Udupi Tiffins,South Indian,2026-10-05,156.0,35.0,5.0,COD,REF962807
+ORD10223, Pooja Rao,Bengaluru,Dosa Junction,South Indian,2026-10-09,180.0,46.0,5.0,Cash on Delivery,REF574734
+ORD10077,kavya menon,Bengaluru,Filter Kaapi House,South Indian,2026-10-06,419.0,47.0,5.0,Upi,REF746536
+ORD10208,  Arjun Nair ,Mysore,Dragon Bowl,Chinese,2026-10-19,691.0,34.0,4.0,UPI,REF506769
+ORD10258,Pooja Shetty ,Bengaluru  ,Royal Rasoi,North Indian,2026-10-18,376.0,51.0,4.0,Cash on Delivery,REF760063
+ORD10008,DIVYA HEGDE,Bengaluru,Wrap Lane,Fast Food,2026-10-14,606.0,41.0,5.0,Upi,REF462215
+ORD10074,Karthik Iyer,bengaluru,Wrap Lane,Fast Food,2026-10-12,271.0,,4.0,CARD,REF830952
+ORD10051,Rahul Gowda,Bengaluru,Dosa Junction,South Indian,2026-10-04,363.0,36.0,3.0,Debit Card,REF547596
+ORD10267,ISHAAN HEGDE,Chennai,Dosa Junction,South Indian,2026-10-13,325.0,38.0,4.0,cod,REF149278
+ORD10221,Karthik Hegde,  Hyderabad,Filter Kaapi House,South Indian,2026-10-23,300.0,33.0,4.0,UPI,REF821313
+ORD10153, Anjali Kulkarni  ,Hyderabad,Filter Kaapi House,South Indian,2026-10-11,402.0,37.0,,Upi,REF704307
+ORD10033,Kavya Gowda,chennai,Pizza Point,Fast Food,2026-10-03,375.0,39.0,,UPI,REF376537
+ORD10016,Rohan Shetty ,bangalore,Dosa Junction,South Indian,2026-10-16,336.0,54.0,3.0,cod,REF439913
+ORD10203, Karthik Nair,Chennai,Sweet Tooth,Desserts,2026-10-03,364.0,50.0,3.0,UPI,REF634041
+ORD10095,Aarav Naik,Chennai  ,Filter Kaapi House,South Indian,2026-10-09,267.0,31.0,5.0,Upi,REF693699
+ORD10108,Anjali Bhat,Bengaluru,Royal Rasoi,North Indian,2026-10-23,489.0,32.0,4.0,Cash on Delivery,REF282428
+ORD10275,Ishaan Sharma,Bengaluru  ,Punjabi Tadka,North Indian,2026-10-17,314.0,43.0,4.0,Credit Card,REF353680
+ORD10199,Aarav Bhat, Chennai,Ice Cream Lab,Desserts,2026-10-03,407.0,51.0,,COD,REF311734
+ORD10148,Vivaan Joshi,  BANGALORE,Pizza Point,Fast Food,2026-10-04,481.0,45.0,5.0,Upi,REF985279
+ORD10195,Rohan Naik,Chennai,Dragon Bowl,Chinese,2026-10-11,325.0,,3.0,Credit Card,REF698473
+ORD10079,ADITYA MENON,Bengaluru  ,Noodle Hub,Chinese,2026-10-07,347.0,39.0,3.0,Cash,REF446966
+ORD10036, Arjun Hegde,Chennai  ,Filter Kaapi House,South Indian,2026-10-02,410.0,45.0,4.0,UPI,REF826541
+ORD10180,Pooja Iyer,  Hubballi,Dum House,Biryani,2026-10-03,650.0,34.0,4.0,upi,REF264249
+ORD10173,karthik bhat,Bangalore,Dosa Junction,South Indian,2026-10-23,390.0,34.0,4.0,CARD,REF330787
+ORD10018,  ananya shetty,Hyderabad  ,Dum House,Biryani,2026-10-25,939.0,32.0,4.0,card,REF391735
+ORD10088,Ananya Joshi, Mangaluru,Noodle Hub,Chinese,2026-10-07,572.0,,4.0,Upi,REF841782
+ORD10157,Anjali Kulkarni,Hyderabad,Burger Barn,Fast Food,2026-10-06,,40.0,4.0,Upi,REF960258
+ORD10163, pooja shetty,  Bangalore,Biryani Bazaar,Biryani,2026-10-02,839.0,38.0,4.0,UPI,REF862577
+ORD10212,Ishaan Pillai,CHENNAI  ,Udupi Tiffins,South Indian,2026-10-17,411.0,30.0,4.0,Cash,REF416600
+ORD10263,Lakshmi Reddy,Mysuru,Wrap Lane,Fast Food,2026-10-01,168.0,15.0,4.0,cod,REF575670
+ORD10252,lakshmi nair,Mangaluru,Dum House,Biryani,2026-10-02,923.0,28.0,4.0,Cash on Delivery,REF672494
+ORD10261,Meera Reddy, Bangalore ,Dum House,Biryani,2026-10-04,816.0,52.0,3.0,upi,REF372709
+ORD10308,  Kavya Gowda,hyderabad ,Biryani Bazaar,Biryani,2026-10-17,1077.0,31.0,5.0,Card,REF923157
+ORD10277, Suresh Iyer,Bangalore,Udupi Tiffins,South Indian,2026-10-15,200.0,58.0,4.0,UPI,REF882137
+ORD10118,karthik sharma,hyderabad ,Burger Barn,Fast Food,2026-10-25,483.0,34.0,5.0,Upi,REF477875
+ORD10209,Vivaan Menon,  Hubballi  ,Punjabi Tadka,North Indian,2026-10-04,564.0,26.0,5.0,Credit Card,REF725379
+ORD10178, RAHUL BHAT, Hyderabad,Wok Street,Chinese,2026-10-08,625.0,33.0,,Cash,REF919750
+ORD10065,Ishaan Hegde,Bengaluru,Dosa Junction,South Indian,2026-10-21,359.0,36.0,4.0,Upi,REF862832
+ORD10011,Neha Hegde  ,  CHENNAI ,Dhaba Express,North Indian,2026-10-01,781.0,,4.0,Upi,REF551048
+ORD10294,Meera Menon,Chennai,Biryani Bazaar,Biryani,2026-10-24,896.0,33.0,4.0,upi,REF936589
+ORD10255,Karthik Pillai , Bengaluru,Filter Kaapi House,South Indian,2026-10-23,186.0,49.0,4.0,upi,REF431445
+ORD10248,aditya rao ,Bengaluru ,Nawabi Handi,Biryani,2026-10-21,760.0,57.0,4.0,UPI,REF863614
+ORD10305,Meera Pillai,  chennai ,Filter Kaapi House,South Indian,2026-10-01,219.0,45.0,4.0,UPI,REF419040
+ORD10289, aditya reddy,Mysuru,Pizza Point,Fast Food,2026-10-04,186.0,12.0,5.0,Upi,REF650607
+ORD10094,neha sharma ,Bengaluru,Burger Barn,Fast Food,2026-10-06,262.0,54.0,4.0,UPI,REF897055
+ORD10280, aditya rao,Mysuru,Nawabi Handi,Biryani,2026-10-17,1005.0,30.0,4.0,Cash on Delivery,REF785875
+ORD10171,  Kavya Naik,Bengaluru,Ice Cream Lab,Desserts,2026-10-03,222.0,32.0,5.0,UPI,REF678273
+ORD10006,Suresh Iyer,BENGALURU,Sweet Tooth,Desserts,2026-10-04,322.0,43.0,4.0,Cash,REF159364
+ORD10201,Lakshmi Joshi  ,Chennai  ,Dragon Bowl,Chinese,2026-10-23,560.0,35.0,4.0,Cash on Delivery,REF309372
+ORD10101, Aarav Gowda,Hyderabad,Wok Street,Chinese,2026-10-11,638.0,,5.0,upi,REF588501
+ORD10242,  Aarav Bhat, Bengaluru,Dosa Junction,South Indian,2026-10-03,130.0,29.0,4.0,Upi,REF426828
+ORD10256,neha sharma,CHENNAI  ,Nawabi Handi,Biryani,2026-10-12,711.0,31.0,4.0,Cash on Delivery,REF472580
+ORD10059,karthik iyer,Bengaluru ,Dum House,Biryani,2026-10-06,313.0,46.0,4.0,Upi,REF674252
+ORD10105,  Arjun Patil,Chennai ,Nawabi Handi,Biryani,2026-10-25,1022.0,33.0,4.0,COD,REF273823
+ORD10125,Diya Nair,Bengaluru,Noodle Hub,Chinese,2026-10-03,572.0,46.0,,UPI,REF930540
+ORD10007,Rohan Shetty ,  Chennai ,Dum House,Biryani,2026-10-23,821.0,20.0,4.0,CARD,REF594696
+ORD10247,Aditya Pillai ,Chennai,Dosa Junction,South Indian,2026-10-21,408.0,41.0,5.0,Upi,REF707565
+ORD10241,Neha Shetty, Mysuru,Nawabi Handi,Biryani,2026-10-23,428.0,36.0,4.0,Upi,REF259495
+ORD10196,ROHAN JOSHI,Chennai,Nawabi Handi,Biryani,2026-10-18,358.0,57.0,4.0,Cash,REF229098
+ORD10150,meera iyer,Mangaluru,Nawabi Handi,Biryani,2026-10-17,924.0,38.0,4.0,Upi,REF627358
+ORD10164,ADITYA NAIK,Hubballi,Burger Barn,Fast Food,2026-10-22,316.0,29.0,5.0,UPI,REF524959
+ORD10168,Arjun Reddy  ,mysuru,Dhaba Express,North Indian,2026-10-20,662.0,30.0,4.0,CARD,REF838201
+ORD10239,  VIVAAN GOWDA,  Mysuru,Dosa Junction,South Indian,2026-10-24,257.0,29.0,4.0,Upi,REF478919
+ORD10075,ROHAN GOWDA , Hubballi,Royal Rasoi,North Indian,2026-10-20,557.0,,4.0,upi,REF464729
+ORD10259,ishaan iyer ,  Mysuru,Filter Kaapi House,South Indian,2026-10-21,151.0,37.0,5.0,UPI,REF777211
+ORD10191,Vivaan Menon,Mysuru,Dhaba Express,North Indian,2026-10-15,265.0,,5.0,UPI,REF711527
+ORD10210,Divya Pillai,Mysuru ,Dosa Junction,South Indian,2026-10-16,170.0,31.0,5.0,Card,REF367905
+ORD10112,Rohan Hegde,BANGALORE,Filter Kaapi House,South Indian,2026-10-23,350.0,48.0,4.0,Cash on Delivery,REF635010
+ORD10310,Diya Iyer,HYDERABAD,Udupi Tiffins,South Indian,2026-10-25,262.0,46.0,5.0,UPI,REF812091
+ORD10107,Nikhil Reddy  ,Bengaluru,Noodle Hub,Chinese,2026-10-16,643.0,49.0,4.0,Card,REF137796
+ORD10149,Aarav Bhat,Bengaluru  ,Filter Kaapi House,South Indian,2026-10-04,130.0,48.0,4.0,card,REF474525
+ORD10260,Diya Menon ,  Chennai,Dosa Junction,South Indian,2026-10-11,352.0,39.0,,cod,REF939773
+ORD10214, Aditya Naik,chennai,Royal Rasoi,North Indian,2026-10-10,558.0,41.0,4.0,COD,REF820870
+ORD10279,Pooja Reddy,bengaluru,Punjabi Tadka,North Indian,2026-10-01,631.0,52.0,2.0,upi,REF396171
+ORD10253,aditya nair,Bangalore,Pizza Point,Fast Food,2026-10-20,190.0,53.0,3.0,cod,REF933129
+ORD10066,Pooja Menon ,Chennai,Filter Kaapi House,South Indian,2026-10-25,391.0,31.0,,Card,REF341710
+ORD10186, Suresh Shetty,  CHENNAI,Sweet Tooth,Desserts,2026-10-21,406.0,28.0,3.0,Upi,REF342419
+ORD10142,Meera Rao, bengaluru,Wok Street,Chinese,2026-10-09,402.0,41.0,2.0,UPI,REF281128
+ORD10133,Divya Iyer,Hubballi  ,Dragon Bowl,Chinese,2026-10-16,317.0,31.0,5.0,Cash on Delivery,REF560183
+ORD10119,Suresh Pillai  ,Hyderabad  ,Dhaba Express,North Indian,2026-10-12,698.0,38.0,4.0,COD,REF801255
+ORD10245, Rohan Hegde ,Mysuru,Dum House,Biryani,2026-10-20,486.0,41.0,,CARD,REF759990
+ORD10120,Aditya Reddy,Bengaluru  ,Dosa Junction,South Indian,2026-10-06,202.0,39.0,5.0,Card,REF703417
+ORD10265,Neha Bhat,Chennai ,Dum House,Biryani,2026-10-01,936.0,36.0,5.0,upi,REF766151
+ORD10039,Pooja Bhat,Hyderabad ,Wrap Lane,Fast Food,2026-10-10,392.0,36.0,5.0,COD,REF567931
+ORD10085,lakshmi patil  ,Mysuru ,Dosa Junction,South Indian,2026-10-03,377.0,31.0,,COD,REF474980
+ORD10225,Rohan Patil,Chennai ,Burger Barn,Fast Food,2026-10-25,392.0,32.0,5.0,card,REF594573
+ORD10020,Aarav Shetty,Bengaluru  ,Biryani Bazaar,Biryani,2026-10-16,592.0,44.0,4.0,Cash,REF452713
+ORD10073,Aditya Pillai,Bengaluru  ,Punjabi Tadka,North Indian,2026-10-04,468.0,49.0,3.0,CARD,REF265377
+ORD10076,ishaan reddy,bengaluru ,Punjabi Tadka,North Indian,2026-10-22,341.0,43.0,4.0,upi,REF590656
+ORD10265,Neha Bhat,Chennai ,Dum House,Biryani,2026-10-01,936.0,36.0,5.0,upi,REF766151
+ORD10041,Meera Pillai,Chennai,Noodle Hub,Chinese,2026-10-20,394.0,51.0,5.0,CARD,REF313915
+ORD10309,ROHAN NAIR ,Mangaluru,Noodle Hub,Chinese,2026-10-02,493.0,45.0,4.0,UPI,REF530772
+ORD10111,Anjali Pillai,Bengaluru,Filter Kaapi House,South Indian,2026-10-15,335.0,46.0,4.0,Credit Card,REF942420
+ORD10300,Anjali Iyer,  CHENNAI ,Noodle Hub,Chinese,2026-10-11,469.0,44.0,4.0,Card,REF447613
+ORD10049,  nikhil shetty ,Mysuru ,Dum House,Biryani,2026-10-08,1041.0,21.0,4.0,upi,REF288790
+ORD10019,Neha Reddy ,MANGALURU,Punjabi Tadka,North Indian,2026-10-06,712.0,25.0,5.0,Upi,REF697160
+ORD10044,Rohan Nair,  Bengaluru,Punjabi Tadka,North Indian,2026-10-09,631.0,38.0,3.0,Debit Card,REF276693
+ORD10274,Kavya Kulkarni,  HUBBALLI ,Wrap Lane,Fast Food,2026-10-09,268.0,25.0,5.0,UPI,REF953391
+ORD10091,Meera Kulkarni,Mangalore,Wok Street,Chinese,2026-10-14,397.0,,4.0,Cash on Delivery,REF142729
+ORD10276,  Neha Iyer,Hubballi,Royal Rasoi,North Indian,2026-10-07,256.0,21.0,5.0,UPI,REF618401
+ORD10161,arjun rao,bengaluru,Royal Rasoi,North Indian,2026-10-11,547.0,62.0,3.0,COD,REF566891
+ORD10115,Ishaan Sharma,Bengaluru,Udupi Tiffins,South Indian,2026-10-09,155.0,49.0,4.0,UPI,REF637087
+ORD10069,Diya Sharma, Mangaluru,Pizza Point,Fast Food,2026-10-12,171.0,24.0,,UPI,REF311331
+ORD10216,Kavya Rao,Hyderabad ,Dum House,Biryani,2026-10-04,926.0,33.0,5.0,Card,REF478414
+ORD10132,  Arjun Nair,  Bengaluru  ,Dum House,Biryani,2026-10-01,,45.0,3.0,UPI,REF456141
+ORD10002,aarav gowda,Hubli,Udupi Tiffins,South Indian,2026-10-14,221.0,35.0,3.0,upi,REF370870
+ORD10188,Lakshmi Nair,Chennai,Udupi Tiffins,South Indian,2026-10-05,374.0,32.0,4.0,upi,REF888084
+ORD10228,NIKHIL KULKARNI,Mysore,Dhaba Express,North Indian,2026-10-04,676.0,,4.0,COD,REF655335
+ORD10179,Vivaan Rao,bangalore,Dragon Bowl,Chinese,2026-10-08,425.0,20.0,4.0,upi,REF422510
+ORD10182,Meera Joshi,Chennai ,Wok Street,Chinese,2026-10-17,602.0,47.0,3.0,COD,REF153178
+ORD10134,Anjali Naik  ,Bengaluru,Dum House,Biryani,2026-10-10,996.0,20.0,5.0,Upi,REF432258
+ORD10224,Rohan Sharma,BENGALURU,Dosa Junction,South Indian,2026-10-14,263.0,56.0,4.0,Cash on Delivery,REF992914
+ORD10249,DIVYA NAIK,Hubballi,Dosa Junction,South Indian,2026-10-03,136.0,19.0,4.0,upi,REF670122
+ORD10284,  Anjali Joshi,Hubballi ,Nawabi Handi,Biryani,2026-10-18,673.0,38.0,4.0,cod,REF137057
+ORD10169,  Pooja Reddy,Hyderabad ,Dum House,Biryani,2026-10-18,836.0,46.0,3.0,UPI,REF725833
+ORD10264,Neha Pillai, Chennai  ,Sweet Tooth,Desserts,2026-10-18,333.0,35.0,,Debit Card,REF358982
+ORD10143, Aditya Pillai ,  mysore,Noodle Hub,Chinese,2026-10-04,558.0,29.0,4.0,UPI,REF742320
+ORD10246,  karthik bhat,Chennai,Wok Street,Chinese,2026-10-12,614.0,43.0,5.0,Credit Card,REF577084
+ORD10028,Vivaan Nair,Hyderabad,Wok Street,Chinese,2026-10-13,505.0,28.0,3.0,Upi,REF802882
+ORD10139, Rahul Sharma,Hyderabad,Udupi Tiffins,South Indian,2026-10-06,354.0,38.0,4.0,UPI,REF317525
+ORD10090,  Rahul Patil,  Bengaluru,Dhaba Express,North Indian,2026-10-18,891.0,39.0,,Credit Card,REF526788
+ORD10024, Anjali Rao,Mysuru  ,Udupi Tiffins,South Indian,2026-10-04,239.0,25.0,,Card,REF894699
+ORD10097,Meera Patil,bengaluru,Burger Barn,Fast Food,2026-10-03,395.0,53.0,3.0,CARD,REF819660
+ORD10080,ananya joshi,  Bengaluru,Royal Rasoi,North Indian,2026-10-05,765.0,59.0,3.0,UPI,REF304704
+ORD10133,Divya Iyer,Hubballi  ,Dragon Bowl,Chinese,2026-10-16,317.0,31.0,5.0,Cash on Delivery,REF560183
+ORD10193,MEERA RAO,Bengaluru ,Biryani Bazaar,Biryani,2026-10-23,852.0,48.0,3.0,Debit Card,REF267048
+ORD10243,vivaan reddy  ,hyderabad,Noodle Hub,Chinese,2026-10-19,389.0,44.0,3.0,Upi,REF280818
+ORD10172,  Divya Shetty, Bengaluru,Cake Studio,Desserts,2026-10-12,230.0,42.0,3.0,Credit Card,REF923764
+ORD10068, Diya Reddy  ,Chennai  ,Cake Studio,Desserts,2026-10-19,338.0,42.0,4.0,Credit Card,REF764501
+ORD10146, Divya Pillai,bengaluru,Noodle Hub,Chinese,2026-10-15,280.0,42.0,4.0,Credit Card,REF445932
+ORD10058,ishaan hegde, MYSURU,Biryani Bazaar,Biryani,2026-10-20,355.0,43.0,5.0,cod,REF794397
+ORD10082,nikhil iyer,Mangaluru,Royal Rasoi,North Indian,2026-10-05,861.0,30.0,5.0,Credit Card,REF954232
+ORD10232,  Kavya Rao, Mangaluru,Wrap Lane,Fast Food,2026-10-09,158.0,33.0,,UPI,REF789492
+ORD10038, Aarav Patil,Chennai,Dragon Bowl,Chinese,2026-10-19,650.0,22.0,4.0,cod,REF491625
+ORD10141, Karthik Reddy,BENGALURU,Nawabi Handi,Biryani,2026-10-13,1037.0,46.0,5.0,upi,REF271010
+ORD10035,Pooja Rao,Hyderabad,Nawabi Handi,Biryani,2026-10-14,733.0,44.0,4.0,UPI,REF899049
+ORD10126,Sneha Shetty,Mangaluru,Wok Street,Chinese,2026-10-18,442.0,37.0,4.0,upi,REF292894
+ORD10237,Divya Pillai,  Chennai,Dum House,Biryani,2026-10-18,1062.0,36.0,4.0,upi,REF135707
+ORD10302, Anjali Shetty,chennai,Nawabi Handi,Biryani,2026-10-14,605.0,31.0,,Cash,REF675273
+ORD10254,Ishaan Kulkarni,Hyderabad ,Dragon Bowl,Chinese,2026-10-05,461.0,,3.0,UPI,REF547529
+ORD10177,Kavya Joshi  ,Mangaluru,Dhaba Express,North Indian,2026-10-05,585.0,36.0,,upi,REF756885
+ORD10093,Lakshmi Hegde ,  Mysuru ,Udupi Tiffins,South Indian,2026-10-19,322.0,29.0,5.0,card,REF971313
+ORD10110, Rahul Menon , Hyderabad  ,Pizza Point,Fast Food,2026-10-21,552.0,44.0,5.0,UPI,REF810909
+ORD10281,Pooja Nair ,Mangaluru,Filter Kaapi House,South Indian,2026-10-19,188.0,,3.0,Upi,REF167008
+ORD10072, ishaan nair ,Mysuru,Royal Rasoi,North Indian,2026-10-12,468.0,28.0,5.0,Credit Card,REF851357
+ORD10162,arjun patil ,Hubballi,Nawabi Handi,Biryani,2026-10-23,1037.0,31.0,5.0,Debit Card,REF258852
+ORD10270,ROHAN MENON,  Bengaluru,Punjabi Tadka,North Indian,2026-10-14,349.0,33.0,4.0,Card,REF660480
+ORD10092,Vivaan Shetty  ,  Bengaluru  ,Nawabi Handi,Biryani,2026-10-05,979.0,46.0,4.0,COD,REF508330
+ORD10081, Karthik Bhat,Mangaluru,Royal Rasoi,North Indian,2026-10-06,454.0,26.0,4.0,upi,REF651134
+ORD10192,  Sneha Naik,Hubballi,Nawabi Handi,Biryani,2026-10-20,336.0,48.0,,Credit Card,REF947596
