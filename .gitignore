@@ -39,3 +39,7 @@ desktop.ini
 .vscode/
 .idea/
 *.swp
+
+# .NET
+bin/
+obj/

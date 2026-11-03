@@ -16,3 +16,19 @@ double average = total / 3.0;
 Console.WriteLine("Student Name: " + studentName);
 Console.WriteLine("Total Marks: " + total);
 Console.WriteLine("Average: " + average);
+
+// result based on three subjects marks pass if >= 75 all subjects otherwise fail
+char gradeMark = average >= 90 ? 'A' :
+                 average >= 80 ? 'B' :
+                 average >= 70 ? 'C' :
+                 average >= 60 ? 'D' :
+                 average >= 50 ? 'E' : 'F';
+
+
+bool isPass = subject1 >= 75 && subject2 >= 75 && subject3 >= 75;
+if (isPass) {
+    Console.WriteLine($"Result: Pass Grade: {gradeMark}");
+} else {
+    Console.WriteLine("Result: Fail");
+}
+
