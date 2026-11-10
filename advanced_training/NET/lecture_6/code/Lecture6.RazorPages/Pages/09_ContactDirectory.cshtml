@@ -1,0 +1,37 @@
+@page "/ContactDirectory"
+@model Lecture6.RazorPages.Pages.ContactDirectoryModel
+@{
+    ViewData["Title"] = "Contact Directory";
+}
+
+<h2>Contact Directory</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="SearchKeyword">Search by name or department</label>
+        <input asp-for="SearchKeyword" />
+        <button type="submit">Search</button>
+    </div>
+</form>
+
+@if (Model.FilteredContacts.Count == 0)
+{
+    <p>No matches were found.</p>
+}
+
+<table>
+    <thead>
+        <tr><th>Name</th><th>Department</th><th>Email</th><th>Extension</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var contact in Model.FilteredContacts)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Department</td>
+                <td>@contact.Email</td>
+                <td>@contact.Extension</td>
+            </tr>
+        }
+    </tbody>
+</table>

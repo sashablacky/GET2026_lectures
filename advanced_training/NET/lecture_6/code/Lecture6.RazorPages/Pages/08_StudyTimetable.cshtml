@@ -1,0 +1,47 @@
+@page "/StudyTimetable"
+@model Lecture6.RazorPages.Pages.StudyTimetableModel
+@{
+    ViewData["Title"] = "Study Timetable";
+}
+
+<h2>Study Timetable</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+<form method="post">
+    <div>
+        <label asp-for="SelectedTaskId">Mark task complete</label>
+        <select asp-for="SelectedTaskId">
+            <option value="0">Select a task</option>
+            @foreach (var task in Model.Tasks)
+            {
+                <option value="@task.Id">@task.Subject - @task.Day - @task.StartTime</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Complete task</button>
+</form>
+
+@foreach (var group in Model.Tasks.OrderBy(t => Model.DayOrder(t.Day)).ThenBy(t => t.StartTime).GroupBy(t => t.Day))
+{
+    <h3>@group.Key</h3>
+    <ul>
+        @foreach (var task in group)
+        {
+            <li>
+                @task.Subject (@task.StartTime, @task.DurationMinutes mins)
+                @if (task.IsCompleted)
+                {
+                    <span>Completed</span>
+                }
+                else
+                {
+                    <span>Pending</span>
+                }
+            </li>
+        }
+    </ul>
+}

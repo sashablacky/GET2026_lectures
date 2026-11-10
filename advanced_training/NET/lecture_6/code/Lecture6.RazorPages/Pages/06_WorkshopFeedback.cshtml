@@ -1,0 +1,44 @@
+@page "/WorkshopFeedback"
+@model Lecture6.RazorPages.Pages.WorkshopFeedbackModel
+@{
+    ViewData["Title"] = "Workshop Feedback";
+}
+
+<h2>Workshop Feedback</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <p>@Model.SuccessMessage</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+<form method="post">
+    <div>
+        <label asp-for="ParticipantName">Participant Name</label>
+        <input asp-for="ParticipantName" />
+    </div>
+    <div>
+        <label asp-for="WorkshopName">Workshop Name</label>
+        <input asp-for="WorkshopName" />
+    </div>
+    <div>
+        <label asp-for="Rating">Rating</label>
+        <select asp-for="Rating">
+            <option value="0">Choose a rating</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label asp-for="Comments">Comments</label>
+        <textarea asp-for="Comments"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</form>

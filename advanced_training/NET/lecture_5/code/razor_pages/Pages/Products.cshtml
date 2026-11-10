@@ -1,0 +1,39 @@
+@page
+@model ProductsModel
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Price</th>
+            <th scope="col">Availability</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.ProductList)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Category</td>
+                <td>@product.Price</td>
+                <td>
+                    @if (product.StockQuantity > 0)
+                    {
+                        <span class="text-success">In Stock</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Out of Stock</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

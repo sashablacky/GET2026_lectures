@@ -1,0 +1,58 @@
+@page
+@model MeterOnboardingModel
+@{
+    ViewData["Title"] = "Meter Onboarding";
+}
+
+<h1>Welcome to Meter Onboarding</h1>
+<p class="lead">Register a new customer and their meter connection below.</p>
+
+<form method="post" class="col-md-4">
+    <div class="mb-2">
+        <label asp-for="CustomerName" class="form-label">Customer Name</label>
+        <input asp-for="CustomerName" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label asp-for="MeterNumber" class="form-label">Meter Number</label>
+        <input asp-for="MeterNumber" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label asp-for="Location" class="form-label"></label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <span class="form-label d-block">Connection Type</span>
+        @foreach (var type in MeterOnboardingModel.ConnectionTypes)
+        {
+            <div class="form-check form-check-inline">
+                <input asp-for="ConnectionType" type="radio" value="@type" id="conn-@type" class="form-check-input" />
+                <label for="conn-@type" class="form-check-label">@type</label>
+            </div>
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (Model.Errors.Count > 0)
+{
+    <div class="alert alert-danger mt-3" role="alert">
+        <ul class="mb-0">
+            @foreach (var error in Model.Errors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}
+@if (!string.IsNullOrEmpty(Model.SuccessMessage))
+{
+    <div class="alert alert-success mt-3">
+        <p>@Model.SuccessMessage</p>
+        <ul class="mb-0">
+            <li>Customer Name: @Model.CustomerName</li>
+            <li>Meter Number: @Model.MeterNumber</li>
+            <li>Location: @Model.Location</li>
+            <li>Connection Type: @Model.ConnectionType</li>
+        </ul>
+    </div>
+}

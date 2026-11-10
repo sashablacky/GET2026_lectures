@@ -1,0 +1,52 @@
+@page "/PollVoting"
+@model Lecture6.RazorPages.Pages.PollVotingModel
+@{
+    ViewData["Title"] = "Poll Voting";
+}
+
+<h2>Poll Voting</h2>
+
+<form method="post">
+    @foreach (var option in Model.Options)
+    {
+        <div>
+            <label>
+                <input type="radio" asp-for="SelectedOption" value="@option.OptionName" />
+                @option.OptionName
+            </label>
+        </div>
+    }
+
+    <button type="submit">Vote</button>
+</form>
+
+@if (!string.IsNullOrWhiteSpace(Model.Message))
+{
+    <p>@Model.Message</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+<h3>Results</h3>
+<table>
+    <thead>
+        <tr><th>Option</th><th>Votes</th><th>Percentage</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var result in Model.Results)
+        {
+            <tr>
+                <td>@result.Option</td>
+                <td>@result.VoteCount</td>
+                <td>@result.Percentage%</td>
+                @if (Model.LeadingOption == result.Option)
+                {
+                    <td>Leading option</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

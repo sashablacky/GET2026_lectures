@@ -1,0 +1,48 @@
+@page "/MembershipRenewal"
+@model Lecture6.RazorPages.Pages.MembershipRenewalModel
+@{
+    ViewData["Title"] = "Membership Renewal";
+}
+
+<h2>Membership Renewal</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <p>
+        <strong>Membership renewed:</strong> @Model.SuccessMessage
+    </p>
+}
+
+<form method="post">
+    <div>
+        <label asp-for="MemberId">Member ID</label>
+        <input asp-for="MemberId" />
+    </div>
+
+    <div>
+        <label asp-for="MemberName">Member Name</label>
+        <input asp-for="MemberName" />
+    </div>
+
+    <div>
+        <label asp-for="CurrentPlan">Current Plan</label>
+        <select asp-for="CurrentPlan">
+            <option value="">Select a plan</option>
+            <option value="Basic">Basic</option>
+            <option value="Standard">Standard</option>
+            <option value="Premium">Premium</option>
+        </select>
+    </div>
+
+    <div>
+        <label asp-for="RenewalMonths">Renewal Months</label>
+        <input asp-for="RenewalMonths" type="number" min="1" max="12" />
+    </div>
+
+    <button type="submit">Submit</button>
+</form>

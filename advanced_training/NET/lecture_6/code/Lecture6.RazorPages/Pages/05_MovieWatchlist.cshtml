@@ -1,0 +1,43 @@
+@page "/MovieWatchlist"
+@model Lecture6.RazorPages.Pages.MovieWatchlistModel
+@{
+    ViewData["Title"] = "Movie Watchlist";
+}
+
+<h2>Movie Watchlist</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="SelectedGenre">Filter by genre</label>
+        <select asp-for="SelectedGenre">
+            <option value="All">All</option>
+            @foreach (var genre in Model.Genres)
+            {
+                <option value="@genre">@genre</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Apply filter</button>
+</form>
+
+@if (Model.FilteredMovies.Count == 0)
+{
+    <p>No movies match the selected genre.</p>
+}
+
+<table>
+    <thead>
+        <tr><th>Title</th><th>Genre</th><th>Year</th><th>Watched</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model.FilteredMovies)
+        {
+            <tr>
+                <td>@movie.Title</td>
+                <td>@movie.Genre</td>
+                <td>@movie.ReleaseYear</td>
+                <td>@(movie.Watched ? "Watched" : "Not watched")</td>
+            </tr>
+        }
+    </tbody>
+</table>

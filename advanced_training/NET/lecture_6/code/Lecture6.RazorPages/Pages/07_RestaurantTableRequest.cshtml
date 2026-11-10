@@ -1,0 +1,46 @@
+@page "/RestaurantTableRequest"
+@model Lecture6.RazorPages.Pages.RestaurantTableRequestModel
+@{
+    ViewData["Title"] = "Restaurant Table Request";
+}
+
+<h2>Restaurant Table Request</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.Message))
+{
+    <p>@Model.Message</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+<form method="post">
+    <div>
+        <label asp-for="GuestName">Guest Name</label>
+        <input asp-for="GuestName" />
+    </div>
+    <div>
+        <label asp-for="VisitDate">Visit Date</label>
+        <input asp-for="VisitDate" type="date" />
+    </div>
+    <div>
+        <label asp-for="VisitTime">Visit Time</label>
+        <input asp-for="VisitTime" type="time" />
+    </div>
+    <div>
+        <label asp-for="GuestCount">Guest Count</label>
+        <input asp-for="GuestCount" type="number" min="1" />
+    </div>
+    <div>
+        <label asp-for="SeatingPreference">Seating Preference</label>
+        <select asp-for="SeatingPreference">
+            <option value="">Select one</option>
+            <option value="Indoor">Indoor</option>
+            <option value="Outdoor">Outdoor</option>
+            <option value="No Preference">No Preference</option>
+        </select>
+    </div>
+    <button type="submit">Reserve</button>
+</form>

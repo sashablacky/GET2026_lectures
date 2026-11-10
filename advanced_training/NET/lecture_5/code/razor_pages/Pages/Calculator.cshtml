@@ -1,0 +1,37 @@
+@page
+@model CalculatorModel
+@{
+    ViewData["Title"] = "Simple Calculator";
+}
+
+<h1>Simple Calculator</h1>
+
+<form method="post" class="col-md-4">
+    <div class="mb-2">
+        <label asp-for="FirstNumber" class="form-label"></label>
+        <input asp-for="FirstNumber" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label asp-for="SecondNumber" class="form-label"></label>
+        <input asp-for="SecondNumber" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Operation" class="form-label"></label>
+        <select asp-for="Operation" class="form-select">
+            <option value="Add">Addition (+)</option>
+            <option value="Subtract">Subtraction (-)</option>
+            <option value="Multiply">Multiplication (*)</option>
+            <option value="Divide">Division (/)</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <p class="alert alert-danger mt-3" role="alert">@Model.Message</p>
+}
+@if (Model.Result.HasValue)
+{
+    <p class="alert alert-success mt-3">Result: @Model.Result.Value</p>
+}

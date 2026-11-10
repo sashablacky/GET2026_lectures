@@ -1,0 +1,46 @@
+@page "/CommunityLearningPortal"
+@model Lecture6.RazorPages.Pages.CommunityLearningPortalModel
+@{
+    ViewData["Title"] = "Community Learning Portal";
+}
+
+<h2>Community Learning Portal</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <p>@Model.SuccessMessage</p>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <p>@Model.ErrorMessage</p>
+}
+
+<h3>Available workshops</h3>
+<ul>
+    @foreach (var workshop in Model.Workshops)
+    {
+        <li><strong>@workshop.Title</strong> by @workshop.Speaker on @workshop.Date.ToString("dd MMM yyyy")</li>
+    }
+</ul>
+
+<form method="post">
+    <div>
+        <label asp-for="ParticipantName">Participant Name</label>
+        <input asp-for="ParticipantName" />
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" type="email" />
+    </div>
+    <div>
+        <label asp-for="WorkshopId">Workshop</label>
+        <select asp-for="WorkshopId">
+            @foreach (var workshop in Model.Workshops)
+            {
+                <option value="@workshop.Id">@workshop.Title</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Register</button>
+</form>

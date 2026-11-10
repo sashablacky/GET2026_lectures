@@ -1,0 +1,43 @@
+@page "/ConferenceSessionPlanner"
+@model Lecture6.RazorPages.Pages.ConferenceSessionPlannerModel
+@{
+    ViewData["Title"] = "Conference Session Planner";
+}
+
+<h2>Conference Session Planner</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="SelectedTrack">Select track</label>
+        <select asp-for="SelectedTrack">
+            <option value="">All tracks</option>
+            @foreach (var track in Model.AllTracks)
+            {
+                <option value="@track">@track</option>
+            }
+        </select>
+    </div>
+    <button type="submit">Filter</button>
+</form>
+
+@if (Model.FilteredSessions.Count == 0)
+{
+    <p>No sessions found.</p>
+}
+
+<table>
+    <thead>
+        <tr><th>Title</th><th>Speaker</th><th>Track</th><th>Start</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var session in Model.FilteredSessions)
+        {
+            <tr>
+                <td>@session.Title</td>
+                <td>@session.Speaker</td>
+                <td>@session.Track</td>
+                <td>@session.StartTime.ToString(@"hh\:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

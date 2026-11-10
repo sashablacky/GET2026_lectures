@@ -1,0 +1,6 @@
+@Lecture6.MinimalApi_HostAddress = http://localhost:5022
+
+GET {{Lecture6.MinimalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,15 +1,6 @@
 import { getPerson } from './getPerson';
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { Reset } from './Reset';
-
-function expensiveFunction() {
-  console.log('expencive function invoked');
-  let sum = 0;
-  for (let i = 0; i < 10000; i++) {
-    sum++;
-  }
-  return sum;
-}
 
 export function PersonScore() {
   const [name, setName] = useState('');
@@ -24,11 +15,7 @@ export function PersonScore() {
     });
   });
 
-  const expenciveCalculation = useMemo(() => expensiveFunction(), []);
-
-  function handleReset() {
-    setScore(0);
-  }
+  const callBack1 = useCallback(() => setScore(0), []);
 
   return (
     <div>
@@ -39,14 +26,13 @@ export function PersonScore() {
           {name},{score}
         </h3>
       )}
-      <p>{expenciveCalculation}</p>
       <div>
         <button onClick={() => setScore(score + 1)}> Add </button>
       </div>
       <div>
         <button onClick={() => setScore(score - 1)}> Subtract </button>
       </div>
-      <Reset onProp={handleReset} />
+      <Reset propMethod={callBack1} />
     </div>
   );
 }

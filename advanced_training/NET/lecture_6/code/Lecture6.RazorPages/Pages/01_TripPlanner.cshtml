@@ -1,0 +1,26 @@
+@page "/TripPlanner"
+@model Lecture6.RazorPages.Pages.TripPlannerModel
+@{
+    ViewData["Title"] = "Trip Planner";
+}
+
+<h2>Trip Planner</h2>
+
+@foreach (var day in Model.Stops.GroupBy(stop => stop.DayNumber).OrderBy(group => group.Key))
+{
+    <h3>Day @day.Key</h3>
+    var stopsForDay = day.OrderBy(stop => stop.ArrivalTime).ToList();
+    <ul>
+        @foreach (var stop in stopsForDay)
+        {
+            var isLastStop = stop == stopsForDay.Last();
+            <li>
+                @stop.PlaceName (@stop.ArrivalTime) - @stop.Activity
+                @if (isLastStop)
+                {
+                    <strong> - Day complete</strong>
+                }
+            </li>
+        }
+    </ul>
+}
