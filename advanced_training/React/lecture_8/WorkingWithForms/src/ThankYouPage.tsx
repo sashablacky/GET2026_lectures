@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 
 export function ThankYouPage() {
-  const { name } = useParams<{ name: string }>();
-  return <div>tanks {name} well be in touch soon</div>;
+  const { name } = useParams<{ name: string }>(); // {name:'Stoyan'}
+  return <div> Thanks {name},We will be in touch shortly </div>;
 }
