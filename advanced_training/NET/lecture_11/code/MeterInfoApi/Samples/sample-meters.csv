@@ -1,0 +1,6 @@
+MeterNumber,Location,Status
+MTR-1001,Building A,Active
+MTR-1002,Building B,Inactive
+MTR-1001,Duplicate Location,Active
+,Missing Number,Active
+MTR-1005,Unknown Status,Unknown

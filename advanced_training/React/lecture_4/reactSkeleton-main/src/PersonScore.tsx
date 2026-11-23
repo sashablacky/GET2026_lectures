@@ -11,7 +11,6 @@ export function PersonScore() {
     getPerson().then((person: any) => {
       setLoading(false);
       setName(person.name);
-      console.log('state values are ' + score);
     });
   });
 

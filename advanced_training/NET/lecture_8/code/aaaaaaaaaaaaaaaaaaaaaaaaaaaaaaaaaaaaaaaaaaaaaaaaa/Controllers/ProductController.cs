@@ -46,4 +46,10 @@ public class ProductController : ControllerBase
         return Ok(products);
     }
 
+    [HttpGet("category/{category}")]
+    public IActionResult GetProductsByCategoryFromRoute([FromRoute] string category)
+    {
+        return GetProductsByCategory(category);
+    }
+
 }

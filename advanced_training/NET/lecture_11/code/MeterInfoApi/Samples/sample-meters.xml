@@ -1,0 +1,17 @@
+<Meters>
+  <Meter>
+    <MeterNumber>MTR-3001</MeterNumber>
+    <Location>Warehouse 1</Location>
+    <Status>Active</Status>
+  </Meter>
+  <Meter>
+    <MeterNumber>MTR-3002</MeterNumber>
+    <Location>Warehouse 2</Location>
+    <Status>Inactive</Status>
+  </Meter>
+  <Meter>
+    <MeterNumber>MTR-3003</MeterNumber>
+    <Location></Location>
+    <Status>Active</Status>
+  </Meter>
+</Meters>

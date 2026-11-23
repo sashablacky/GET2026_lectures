@@ -58,7 +58,7 @@ public class BookController : ControllerBase
 
         book.IsAvailable = update.IsAvailable;
 
-        return Ok(book);
+        return Ok(Books);
     }
 
     [HttpDelete("{id:int}")]

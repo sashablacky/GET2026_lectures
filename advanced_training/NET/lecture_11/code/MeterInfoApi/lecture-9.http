@@ -1,0 +1,35 @@
+@host = http://localhost:5122
+
+### Get all meters (first request misses cache; second request hits cache)
+GET {{host}}/api/MeterInfo
+
+### Get meter by ID
+GET {{host}}/api/MeterInfo/1
+
+### Get command logs for meter
+GET {{host}}/api/CommandLog/meter/1
+
+### Upload a CSV import
+POST {{host}}/api/MeterInfo/import
+Content-Type: multipart/form-data; boundary=import
+
+--import
+Content-Disposition: form-data; name="file"; filename="sample-meters.csv"
+Content-Type: text/csv
+
+< Samples/sample-meters.csv
+--import--
+
+### Queue a background CSV import
+POST {{host}}/api/MeterInfo/import/background
+Content-Type: multipart/form-data; boundary=import
+
+--import
+Content-Disposition: form-data; name="file"; filename="sample-meters.csv"
+Content-Type: text/csv
+
+< Samples/sample-meters.csv
+--import--
+
+### List background import jobs
+GET {{host}}/api/ImportJob

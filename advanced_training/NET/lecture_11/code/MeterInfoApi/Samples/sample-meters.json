@@ -1,0 +1,6 @@
+[
+  { "MeterNumber": "MTR-2001", "Location": "North Plant", "Status": "Active" },
+  { "MeterNumber": "MTR-2002", "Location": "South Plant", "Status": "Inactive" },
+  { "MeterNumber": "", "Location": "No Number", "Status": "Active" },
+  { "MeterNumber": "MTR-2004", "Location": "Invalid", "Status": "Unknown" }
+]

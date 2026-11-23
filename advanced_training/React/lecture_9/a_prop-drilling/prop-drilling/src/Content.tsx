@@ -1,7 +1,9 @@
-type Props = {
-  permissions: undefined | string[];
-};
-export function Content({ permissions }: Props) {
+import { useSelector } from 'react-redux';
+import { RootState } from './store/store';
+
+export function Content() {
+  const permissions = useSelector((state: RootState) => state.user.permissions);
+
   if (permissions === undefined) {
     return null;
   }
