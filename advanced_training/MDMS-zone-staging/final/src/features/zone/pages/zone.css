@@ -1,0 +1,6 @@
+.settings__intro {
+  margin: -8px 0 16px;
+}
+.settings__actions {
+  justify-content: flex-end;
+}
